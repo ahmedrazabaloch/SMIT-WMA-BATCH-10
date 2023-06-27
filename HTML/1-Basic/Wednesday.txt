@@ -1,0 +1,19 @@
+
+<html>
+<head>
+	<title>Wednesday</title>
+</head>
+
+<body>
+
+	<h1>Wednesday</h1>
+	<p>
+	<Strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</Strong>
+	Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+	</p>
+	<p>
+	<em>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</em>
+	</p>
+</body>
+
+</html>

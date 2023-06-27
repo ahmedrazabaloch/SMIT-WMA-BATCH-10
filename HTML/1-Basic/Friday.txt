@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Friday</title>
+</head>
+
+<body>
+
+	<h1>Friday</h1>
+	
+	<p>Abu Huraira reported the Apostle of Allah (may peace be upon him) as saying: <strong>The best day on which the sun has risen is Friday;</strong>
+	on it <em>Adam was created.</em> on it he was made to enter Paradise, on it he was expelled from it. And the last hour will take place on no day other than Friday.</p>
+	
+	<p>
+	<em>Sahih Muslim, Book : 4, Number 1857:</em>
+	</p>
+
+</body>
+
+</html>

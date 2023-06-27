@@ -1,0 +1,23 @@
+<html>
+
+	<head>
+
+		<title> it's all about me </title>
+
+	</head>
+
+	<body>
+		<h1>My name is Ahmedraza</h1>
+		
+		<h2>my age is 28</h2>
+		
+		<p>i lived in karachi since my birth, <strong>i love to play football and running marathon,</strong> 
+		last winter season am participate in the karachi commissioner marathon where <em>i got 12 position</em> 
+		</p>
+
+		<p>
+			now am learning web & app development in saylani mass it traning from <b>Sir Ghous Ahmed</b>
+		</p>
+	</body>
+
+</html>

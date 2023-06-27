@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(197, 191, 191, 0.603);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.m-container {
+    margin: 50px auto;
+    width: 900px;
+    border: 1px solid black;
+}
+
+.n-container {
+    margin: 25px 75px;
+}
+
+hr {
+    border: 1px solid rgb(243, 243, 243);
+}
+
+.n-container>h1 {
+    text-align: center;
+}
+
+.pOne {
+    margin: 25px 0;
+    height: 85px;
+    width: 100%;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 45%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type=email] {
+    width: 45%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.lBox {
+    width: 91%;
+}
+
+.radioDiv {
+    margin: 12px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* input[type=submit] {
+    margin: 15px 0px;
+    line-height: 35px;
+    font-size: 19px;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+} */
+.btn {
+    margin: 15px 75px;
+    line-height: 35px;
+    font-size: 19px;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+}
+
+/* submissionForm */
+
+.qMobile {
+    text-align: center;
+}
+
+.back {
+    margin: 15px 75px;
+    line-height: 35px;
+    font-size: 19px;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+}
