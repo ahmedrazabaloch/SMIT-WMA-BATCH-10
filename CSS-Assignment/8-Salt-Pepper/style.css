@@ -177,7 +177,7 @@ p {
 }
 
 .box-container div {
-  width: 30%;
+  width: 32%;
   margin: 0px auto;
 }
 .box-heading {
@@ -458,5 +458,5 @@ h2 {
   height: 50px;
   padding-top: 25px;
   font-family: "apercu";
-  color: aliceblue;
+  color: #0f0f0f;
 }
