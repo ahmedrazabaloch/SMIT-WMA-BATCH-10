@@ -49,6 +49,7 @@ nav {
   padding: 10px;
   width: 375px;
   height: 450px;
+  
 }
 .box button {
   display: block;
@@ -63,14 +64,39 @@ nav {
   cursor: pointer;
 }
 
+/* .frame {
+  width: 1280px;
+  height: 786px;
+  border: 2px solid black;
+  -ms-transform: scale(0.25);
+  -moz-transform: scale(0.25);
+  -o-transform: scale(0.25);
+  -webkit-transform: scale(0.25);
+  transform: scale(0.25);
+
+  -ms-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+#wrap{
+  width: 320px;
+  height: 192px;
+  padding: 0;
+  overflow: hidden;
+} */
+
 .container iframe {
   width: 100%;
   max-width: 350px;
   height: 250px;
   object-fit: cover;
   border-radius: 10px;
-  border: 2px solid black;
+  border: 2px solid black; 
 }
+
 .text-a,
 .text-p {
   display: inline-block;
