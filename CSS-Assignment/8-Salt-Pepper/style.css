@@ -111,7 +111,7 @@ a {
 }
 .ad-img > a > img {
   width: 100%;
-  height: 75vh;
+  height: 100vh;
 }
 .salt-para {
   font-family: "futurak";
@@ -177,7 +177,8 @@ p {
 }
 
 .box-container div {
-  width: 43%;
+  width: 30%;
+  margin: 0px auto;
 }
 .box-heading {
   text-align: center;
@@ -219,12 +220,12 @@ p {
 
 .box-para > .btn {
   position: absolute;
-  left: 7%;
+  /* left: 7%; */
   margin: 50px 0px;
 }
 .box-para2 > .btn {
   position: absolute;
-  left: 50%;
+  /* left: 50%; */
   margin: 50px 0px;
 }
 .section-two {
@@ -242,11 +243,11 @@ p {
   background-position: bottom;
   background-position-x: right;
 }
-.alignment{
+.alignment {
   text-align: center;
   font-size: 35px;
 }
-.alignment>h1{
+.alignment > h1 {
   font-size: 60px;
   padding-top: 50px;
 }
@@ -284,6 +285,10 @@ p {
 }
 
 .section-three {
+  background-image: url(Images/redEffect-right.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: right;
   background-color: #0f0f0f;
   color: white;
   width: 100%;
@@ -334,7 +339,7 @@ h2 {
 
 .flex-image div {
   width: 25%;
-  height: 210px;
+  height: 270px;
   background-color: white;
   margin: 15px 15px;
   text-align: center;
@@ -344,6 +349,12 @@ h2 {
 .flex-image img {
   display: block;
   margin: 20px auto;
+}
+.flex-image > div > p {
+  font-size: 20px;
+  margin-top: 18px;
+  padding: 5px 0px;
+  line-height: 4px;
 }
 
 .small {
@@ -366,9 +377,11 @@ h2 {
 .last-section div {
   text-align: center;
   display: flex;
-  flex-wrap: wrap;
-  margin: 10px 7px;
-  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  margin: 10px auto;
+  /* justify-content: space-between; */
+  width: 95%;
+  padding: 0 10px;
 }
 
 .last-row img {
@@ -427,4 +440,23 @@ h2 {
   width: 40px;
   height: 40px;
   margin: 10px 5px;
+}
+
+.hover-btn:hover {
+  color: #b7b7b2;
+  font-size: 1rem;
+  background-color: #ed1c24;
+  margin: 0;
+  padding: 0;
+  border: none;
+  transition: 0.5s;
+  font-family: serif;
+}
+.byMe {
+  text-align: center;
+  background-color: #b7b7b2;
+  height: 50px;
+  padding-top: 25px;
+  font-family: "apercu";
+  color: aliceblue;
 }
