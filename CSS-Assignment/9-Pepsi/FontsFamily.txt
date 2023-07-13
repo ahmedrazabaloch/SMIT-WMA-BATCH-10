@@ -1,0 +1,8 @@
+ @font-face {
+                  font-family: AvinerBold;
+                  src: url("https://www.pepsi.com/en-us/assets/fonts/AvenirNextLTPro-Bold.otf") format('opentype');
+                  font-weight: 500;
+
+
+ font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial,
+                  sans-serif;

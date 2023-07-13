@@ -1,0 +1,134 @@
+@font-face {
+  font-family: sofia-jaani;
+  src: url(Fonts/sofiapro-light.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "sofia-jaani";
+}
+
+/* Navbar Start */
+
+.btn {
+  color: #fff5ef;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 2px solid #fff5ef;
+  line-height: 1.5rem;
+  padding: 5px 20px;
+  font-family: "sofia-jaani";
+  font-weight: 800;
+}
+.btn-two {
+  color: #fff5ef;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 2px solid #fff5ef;
+  line-height: 1.5rem;
+  padding: 5px 20px;
+  width: 150px;
+  font-family: "sofia-jaani";
+  font-weight: 800;
+}
+.navBar {
+  /* position: fixed; */
+  background-color: #0065c3;
+  width: 1380px;
+  height: 80px;
+  margin: 0px auto;
+}
+a {
+  text-decoration: none;
+  color: #fff5ef;
+}
+.nav-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-container > ul {
+  display: flex;
+  list-style-type: none;
+  flex: 3;
+  font-family: "sofia-jaani";
+  font-weight: 800;
+}
+.nav-container > ul > li {
+  text-decoration-style: none;
+  margin: 0px 15px;
+}
+.nav-container img {
+  width: 60px;
+  height: 60px;
+}
+.divOne {
+  flex: 1;
+}
+.divOne > a > img {
+  margin: 0px 40px;
+}
+
+/* Head Start */
+
+.head-container {
+  background-image: url(Images/background.png);
+  background-position: center;
+  height: 590px;
+  width: 1380px;
+  margin: 0 auto;
+}
+
+.head-sec-main {
+  display: flex;
+  align-items: center;
+}
+.head-sec-one {
+}
+.head-sec-one > img {
+  max-width: 810px;
+  max-height: 520px;
+  margin-top: 70px;
+}
+.head-sec-two {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.head-sec-two img {
+  max-width: 810px;
+  max-height: 520px;
+}
+
+.btn-two {
+  margin: 30px auto;
+}
+.head-sec-two > p {
+  width: 480px;
+  height: 20px;
+  text-align: center;
+  color: #fff5ef;
+  font-size: 12px;
+}
+
+/* First Section Start  */
+
+.first-section {
+  height: 590px;
+  width: 1380px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+.first-sec-con {
+    display: flex;
+}
+.fsc-first-div {
+    width: 50;
+}
+.fsc-seconf-div {
+}
