@@ -86,8 +86,6 @@ a {
   display: flex;
   align-items: center;
 }
-.head-sec-one {
-}
 .head-sec-one > img {
   max-width: 810px;
   max-height: 520px;
@@ -123,9 +121,8 @@ a {
   height: 590px;
   width: 1380px;
   margin: 0 auto;
-  background-color: antiquewhite;
 }
-.first-sec-con {
+.flex-box {
   display: flex;
   justify-content: center;
 }
@@ -164,4 +161,75 @@ a {
 }
 .fsc-sd-three {
   flex: 1.5;
+}
+
+/* Second Section Start  */
+
+.second-section {
+  background-image: url(Images/Desktop_Background.png);
+  height: 590px;
+  width: 1380px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.snd-one {
+  flex: 1;
+}
+.snd-one > img {
+  height: 540px;
+  margin-top: 60px;
+}
+.snd-two {
+  flex: 1;
+  text-align: center;
+  margin: 160px 0 0 50px;
+}
+
+.snd-two > img {
+  height: 250px;
+}
+.snd-two > h1 {
+  font-size: 18px;
+  color: #fff5ef;
+  margin: 10px 0px;
+}
+/* Third Section Start */
+
+.third-section {
+  height: 590px;
+  width: 1380px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #265cc5;
+  z-index: 1;
+}
+.trd-one {
+  flex: 1;
+  margin: 50px;
+}
+.trd-one > div > img {
+  width: 350px;
+  margin-bottom: -4px;
+}
+.span-div {
+  background-color: #1437bf;
+  color: #fff5ef;
+  width: 100%;
+  line-height: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+.trd-two > img {
+  width: 850px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.trd-two {
+  flex: 3;
+  height: 100%;
 }
