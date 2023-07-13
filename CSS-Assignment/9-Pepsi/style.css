@@ -119,16 +119,49 @@ a {
 /* First Section Start  */
 
 .first-section {
+  background-image: url(Images/PZS-tile-background.png);
   height: 590px;
   width: 1380px;
   margin: 0 auto;
   background-color: antiquewhite;
 }
 .first-sec-con {
-    display: flex;
+  display: flex;
+  justify-content: center;
 }
 .fsc-first-div {
-    width: 50;
+  background-image: url(Images/pzs-can-nobug-desktop.png);
+  background-size: auto 115%;
+  background-position: right -120px bottom;
+  width: 710px;
+  height: 560px;
+  margin-top: 30px;
 }
-.fsc-seconf-div {
+.fsc-first-div > img {
+  position: relative;
+  right: -68%;
+  top: 3%;
+}
+.fsc-second-div {
+  width: 630px;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+}
+.fsc-sd-one {
+  flex: 2;
+}
+.fsc-sd-one > img {
+  margin-top: 100px;
+  height: 250px;
+}
+.fsc-sd-two {
+  flex: 0.5;
+}
+.fsc-sd-two > img {
+  height: 25px;
+  margin: 0px 50px;
+}
+.fsc-sd-three {
+  flex: 1.5;
 }
