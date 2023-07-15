@@ -28,20 +28,6 @@
       format("truetype");
 }
 
-/* @font-face {
-  font-family: sofia-jaani;
-  src: url(Fonts/sofiapro-light.otf);
-}
-@font-face {
-  font-family: cervo;
-  src: url(Fonts/Fontspring-DEMO-cervoneue-extraboldneue.otf);
-}
-@font-face {
-  font-family: AvinerBold;
-  src: url(Fonts/AvenirNextLTPro-Bold.otf) format("opentype");
-  font-weight: 500;
-} */
-
 * {
   margin: 0;
   padding: 0;
@@ -57,8 +43,8 @@
   border: 2px solid #ffffff;
   line-height: 1.5rem;
   padding: 5px 20px;
-  font-family: "Cervo Neue Black" !important;
   font-weight: 800;
+  cursor: pointer;
 }
 .btn-two {
   color: #ffffff;
@@ -68,8 +54,74 @@
   line-height: 1.5rem;
   padding: 5px 20px;
   width: 150px;
-  font-family: "sofia-jaani";
   font-weight: 800;
+  cursor: pointer;
+}
+
+@-webkit-keyframes flipInX {
+  0% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotateX(-20deg);
+    transform: perspective(400px) rotateX(-20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  60% {
+    -webkit-transform: perspective(400px) rotateX(10deg);
+    transform: perspective(400px) rotateX(10deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: perspective(400px) rotateX(-5deg);
+    transform: perspective(400px) rotateX(-5deg);
+  }
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+@keyframes flipInX {
+  0% {
+    -webkit-transform: perspective(400px) rotateX(90deg);
+    transform: perspective(400px) rotateX(90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: perspective(400px) rotateX(-20deg);
+    transform: perspective(400px) rotateX(-20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  60% {
+    -webkit-transform: perspective(400px) rotateX(10deg);
+    transform: perspective(400px) rotateX(10deg);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: perspective(400px) rotateX(-5deg);
+    transform: perspective(400px) rotateX(-5deg);
+  }
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+
+.flipInX:hover {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+  background-color: #ffffff;
+  color: #0065c3;
 }
 .navBar {
   background-color: #0065c3;
@@ -263,15 +315,12 @@ a {
   text-align: center;
   font-weight: 600;
 }
-.trd-two {
-  background-image: url(Images/PEP_BWP_D.jpg);
-  background-position: center;
-  background-size: cover;
-  z-index: 100;
-  flex: 3;
-  height: 100%;
+
+.trd-two > div > img {
   width: 100%;
+  height: 590px;
   position: relative;
+  object-fit: none;
 }
 /* Four Section Start  */
 .four-section {
@@ -366,10 +415,11 @@ a {
   margin: 150px 50px 0 0;
 }
 .con-h1 {
-  font-family: "Cervo Neue Black" !important;
+  font-family: "Sofia Pro Black";
   color: #ffffff;
   font-size: 2.5rem;
   margin-bottom: 10px;
+  font-weight: 800;
 }
 /* Footer Start */
 .footer {
@@ -382,7 +432,7 @@ a {
   text-align: center;
   color: #0065c3;
   font-size: 3.1rem;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Sofia Pro Black";
   font-weight: 800;
 }
 .footer-row {
@@ -447,7 +497,7 @@ a {
   width: 100%;
   height: 100%;
 }
-.footer-icon>div>img{
+.footer-icon > div > img {
   width: 30px;
   height: 30px;
   margin-top: 10px;
