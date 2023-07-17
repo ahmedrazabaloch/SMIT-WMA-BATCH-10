@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(Fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Fidel-Black;
+  src: url(Fonts/Fidel-Black/Fidel-Black.ttf);
+}
+@font-face {
+  font-family: Helvetica;
+  src: url(Fonts/Helvetica/Helvetica.ttf);
+}
+.container {
+  background-image: url(Images/bg1-min.png);
+  background-size: 100%;
+  min-height: 100vh;
+  background-position: bottom;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #6e71c7;
+}
+
+/* NavBar Start */
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+}
+
+.navBar {
+  /* width: 1390px;
+  margin: 0 auto; */
+}
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1320px;
+  margin: auto;
+  padding-top: 30px;
+}
+.unorder-list {
+  display: flex;
+  font-family: "Roboto-Regular";
+  font-size: 18px;
+  color: #fff;
+  list-style: none;
+}
+.unorder-list > li {
+  margin: 0 15px;
+}
+.nav-social-icon {
+  display: flex;
+  width: 240px;
+  justify-content: center;
+}
+.nav-social-icon > img {
+  width: 25px;
+  height: 25px;
+  margin: 0 15px;
+  align-items: right;
+}
+.btn-main > button {
+  font-family: "Fidel-Black";
+  font-size: 28px;
+  color: #fff;
+  border-radius: 29px;
+  text-align: center;
+  border: none;
+  width: 217px;
+  height: 58px;
+  background-color: #d53434;
+  cursor: pointer;
+}
+/* NavBar End */
+
+/* First Page Start */
+
+.nav-section {
+  text-align: center;
+  display: flex;
+  width: 1320px;
+  min-height: 100vh;
+  margin: 0 auto;
+  justify-content: space-around;
+  position: relative;
+}
+
+.bear-img-bt1 {
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+}
+.bear-img-bt1 > img {
+  height: 690px;
+}
+.center-containt {
+  position: absolute;
+  top: 100px;
+  left: 26%;
+}
+
+.center-containt button > img {
+  width: 22px;
+  height: 22px;
+}
+.div-span {
+  font-size: 32px;
+  font-family: "Roboto-Regular";
+  font-weight: bold;
+  background-color: #fff;
+  width: 373px;
+  height: 58px;
+  border-radius: 29px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.btn-imgText {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn-imgText > button {
+  background-color: #1e1e1e;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  border: none;
+  width: 217px;
+  height: 48px;
+  cursor: pointer;
+  display: flex;
+  padding: 10px;
+  margin: auto;
+  justify-content: space-around;
+  z-index: -1;
+}
