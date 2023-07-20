@@ -1,0 +1,160 @@
+@media only screen and (min-width: 1200px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (max-width: 600px) {
+}
+
+/* NavBar */
+
+@media only screen and (max-width: 1200px) {
+  .nav-main {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .nav-main > div > ul {
+    display: none;
+  }
+
+  .nav-social-icon {
+    display: none;
+  }
+  .btn-main {
+    float: right;
+  }
+}
+
+/* First page Two Bear */
+
+@media only screen and (max-width: 1200px) {
+  .nav-sec-con {
+    width: 100%;
+  }
+  .bear-img-bt1 {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .bear-img-bt1 {
+    width: 100%;
+  }
+
+  .bear-img-bt1 > img {
+    height: 500px;
+  }
+  .center-containt {
+    text-align: start;
+  }
+
+  .flex-box {
+    justify-content: start;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+  }
+  .flex-box > div > button {
+    width: 100%;
+  }
+
+  .btn-main {
+    margin-right: 10px;
+  }
+  .btn-main > button {
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  .btn-imgText > button {
+    width: 95% !important;
+    padding: 0;
+    font-size: 1.5rem;
+    margin: 25px 0;
+    overflow: hidden;
+  }
+  .btn-imgText > button > img {
+    display: none;
+  }
+  .div-span {
+    margin-left: 0;
+    width: 50%;
+  }
+  .center-containt > img {
+    width: 50%;
+  }
+  .nav-section {
+    align-items: end;
+    width: 100%;
+  }
+}
+.sec-two {
+  width: 100%;
+  overflow: hidden;
+}
+.three-container {
+  width: 100%;
+  padding: 0;
+}
+.three-container > div {
+  width: 100%;
+}
+.color-yellow {
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+.color-yellow > div > p {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .bear-img-bt1 > img {
+    height: 400px;
+  }
+  .bear-img-bt1 {
+    width: 100%;
+  }
+  .flex-justy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .flex-justy > p {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .bear-img-bt1 {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .bear-img-bt1 > img {
+    height: 230px;
+  }
+  .nav-container {
+    display: none;
+  }
+  .section-container {
+    text-align: center;
+    width: 100%;
+  }
+  .section-container div:last-child > div p {
+    overflow: hidden;
+    text-align: justify;
+    width: 150%;
+    margin-left: 20%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .flex-box > div {
+    width: 100%;
+  }
+  .flex-box > div > img {
+    width: 185%;
+  }
+}

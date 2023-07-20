@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
 * {
   margin: 0;
   padding: 0;
   font-family: "Sofia Pro Regular";
 }
+
 @font-face {
   font-family: Cervo Neue Black;
   src: url(./fonts/178a2cf8-1429-4101-9c89-1f820cd1c5fa.c8c0a0a20d0543b844b63f47d41cf52a.woff2)
@@ -33,78 +35,15 @@
       format("truetype");
 }
 
-/* Animation Start*/
+/*<<<<< Animation Start >>>>>>>*/
+
 /* Rotate logo Animation Start */
-@-webkit-keyframes rotate {
-  0% {
-    -webkit-transform: rotate(0deg) scale(1);
-  }
-  100% {
-    -webkit-transform: rotate(360deg) scale(1.1);
-  }
-}
-@-moz-keyframes rotate {
-  0% {
-    -moz-transform: rotate(0deg) scale(1);
-  }
-  100% {
-    -moz-transform: rotate(360deg) scale(1.1);
-  }
-}
-@-o-keyframes rotate {
-  0% {
-    -o-transform: rotate(0deg) scale(1);
-  }
-  100% {
-    -o-transform: rotate(360deg) scale(1.1);
-  }
-}
-@-ms-keyframes rotate {
-  0% {
-    -ms-transform: rotate(0deg) scale(1);
-  }
-  100% {
-    -ms-transform: rotate(360deg) scale(1.1);
-  }
-}
 @keyframes rotate {
   0% {
     transform: rotate(0deg) scale(1);
   }
   100% {
     transform: rotate(360deg) scale(1.1);
-  }
-}
-@-webkit-keyframes rori {
-  0% {
-    -webkit-transform: rotate(360deg) scale(1.1);
-  }
-  100% {
-    -webkit-transform: rotate(0deg) scale(1);
-  }
-}
-@-moz-keyframes rori {
-  0% {
-    -moz-transform: rotate(360deg) scale(1.1);
-  }
-  100% {
-    -moz-transform: rotate(0deg) scale(1);
-  }
-}
-@-o-keyframes rori {
-  0% {
-    -o-transform: rotate(360deg) scale(1.1);
-  }
-  100% {
-    -o-transform: rotate(0deg) scale(1);
-  }
-}
-@-ms-keyframes rori {
-  0% {
-    -ms-transform: rotate(360deg) scale(1.1);
-  }
-  100% {
-    -ms-transform: rotate(0deg) scale(1);
   }
 }
 @keyframes rori {
@@ -116,169 +55,77 @@
   }
 }
 .rotare-effect img:hover {
-  -webkit-animation-name: rotate;
-  -moz-animation-name: rotate;
-  -ms-animation-name: rotate;
-  -o-animation-name: rotate;
   animation-name: rotate;
-  -webkit-animation-duration: 200ms;
-  -moz-animation-duration: 200ms;
-  -ms-animation-duration: 200ms;
-  -o-animation-duration: 200ms;
   animation-duration: 200ms;
-  -webkit-animation-iteration-count: 1;
-  -moz-animation-iteration-count: 1;
-  -ms-animation-iteration-count: 1;
-  -o-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
-  -o-animation-timing-function: ease;
   animation-timing-function: ease;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -ms-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
 .rotare-effect img {
-  -webkit-animation-name: rori;
-  -moz-animation-name: rori;
-  -ms-animation-name: rori;
-  -o-animation-name: rori;
   animation-name: rori;
-  -webkit-animation-duration: 200ms;
-  -moz-animation-duration: 200ms;
-  -ms-animation-duration: 200ms;
-  -o-animation-duration: 200ms;
   animation-duration: 200ms;
-  -webkit-animation-iteration-count: 1;
-  -moz-animation-iteration-count: 1;
-  -ms-animation-iteration-count: 1;
-  -o-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
-  -o-animation-timing-function: ease;
   animation-timing-function: ease;
 }
 /* Rotate Logo Animation End */
 
 /* Rotate footer Picture Start */
 
-/* @-webkit-keyframes rotate {
-  0% {
-    -webkit-transform: rotate(0deg) scale(1);
-  }
-  100% {
-    -webkit-transform: rotate(30deg) scale(1.1);
-  }
-}
-@-moz-keyframes rotate {
-  0% {
-    -moz-transform: rotate(0deg) scale(1);
-  }
-  100% {
-    -moz-transform: rotate(30deg) scale(1.1);
-  }
-}
-@-o-keyframes rotate {
-  0% {
-    -o-transform: rotate(0deg) scale(1);
-  }
-  100% {
-    -o-transform: rotate(30deg) scale(1.1);
-  }
-}
-@-ms-keyframes rotate {
-  0% {
-    -ms-transform: rotate(0deg) scale(1);
-  }
-  100% {
-    -ms-transform: rotate(30deg) scale(1.1);
-  }
-}
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg) scale(1);
-  }
-  100% {
-    transform: rotate(30deg) scale(1.1);
-  }
-}
-@-webkit-keyframes rori {
-  0% {
-    -webkit-transform: rotate(30deg) scale(1.1);
-  }
-  100% {
-    -webkit-transform: rotate(0deg) scale(1);
-  }
-}
-@-moz-keyframes rori {
-  0% {
-    -moz-transform: rotate(30deg) scale(1.1);
-  }
-  100% {
-    -moz-transform: rotate(0deg) scale(1);
-  }
-}
-@-o-keyframes rori {
-  0% {
-    -o-transform: rotate(30deg) scale(1.1);
-  }
-  100% {
-    -o-transform: rotate(0deg) scale(1);
-  }
-}
-@-ms-keyframes rori {
-  0% {
-    -ms-transform: rotate(30deg) scale(1.1);
-  }
-  100% {
-    -ms-transform: rotate(0deg) scale(1);
-  }
-}
-@keyframes rori {
-  0% {
-    transform: rotate(30deg) scale(1.1);
-  }
-  100% {
-    transform: rotate(0deg) scale(1);
-  }
+.footer-img-rot {
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
 }
 .footer-img-rot:hover {
-  -webkit-animation-name: rotate;
-  -moz-animation-name: rotate;
-  -ms-animation-name: rotate;
-  -o-animation-name: rotate;
-  animation-name: rotate;
-  -webkit-animation-duration: 500ms;
-  -moz-animation-duration: 500ms;
-  -ms-animation-duration: 500ms;
-  -o-animation-duration: 500ms;
-  animation-duration: 500ms;
-  -webkit-animation-iteration-count: 1;
-  -moz-animation-iteration-count: 1;
-  -ms-animation-iteration-count: 1;
-  -o-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease;
-  -moz-animation-timing-function: ease;
-  -ms-animation-timing-function: ease;
-  -o-animation-timing-function: ease;
-  animation-timing-function: ease;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -ms-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  z-index: -100;
-  overflow: hidden;
-} */
+  transform: scale(1.2) rotate(4deg);
+  transition: transform 0.3s ease-in-out;
+}
+/* Button Animate */
 
-/* Rotate footer Picture END */
+@keyframes flipInX {
+  0% {
+    transform: perspective(400px) rotateX(90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  40% {
+    transform: perspective(400px) rotateX(-20deg);
+    animation-timing-function: ease-in;
+  }
+  60% {
+    transform: perspective(400px) rotateX(10deg);
+    opacity: 1;
+  }
+  80% {
+    transform: perspective(400px) rotateX(-5deg);
+  }
+  to {
+    transform: perspective(400px);
+  }
+}
+.btn-two:hover {
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+  color: #1437bf !important;
+  background-color: #ffffff;
+  font-weight: bold;
+  cursor: none;
+}
+.btn:hover {
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+  color: #1437bf !important;
+  background-color: #ffffff;
+  font-weight: bold;
+  cursor: none;
+  font-size: 1em;
+}
+
+/* Nav Icon Animation */
+
+.nav-container > ul > li > a:hover {
+  text-shadow: 3px 3px 5px rgb(187, 182, 182);
+}
+
 /* Animation END */
 
 /* Navbar Start */
@@ -288,10 +135,10 @@
   background-color: transparent;
   border-radius: 20px;
   border: 2px solid #ffffff;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
   padding: 5px 20px;
   font-weight: 800;
-  cursor: pointer;
+  cursor: none;
 }
 .btn-two {
   color: #ffffff;
@@ -302,7 +149,7 @@
   padding: 5px 20px;
   width: 150px;
   font-weight: 800;
-  cursor: pointer;
+  cursor: none;
 }
 .navBar {
   background-color: #0065c3;
@@ -496,7 +343,6 @@ a {
   text-align: center;
   font-weight: 600;
 }
-
 .trd-two > div > img {
   width: 100%;
   height: 590px;
@@ -547,6 +393,12 @@ a {
   height: 590px;
   width: 1380px;
   margin: 0 auto;
+}
+.fifth-one {
+  height: auto;
+}
+.fifth-one > video {
+  width: 100%;
 }
 
 /* Six Section Start */
@@ -613,16 +465,20 @@ a {
   text-align: center;
   color: #0065c3;
   font-size: 3.1rem;
-  font-family: "Sofia Pro Black";
-  font-weight: 800;
+  font-family: "Poppins", sans-serif !important;
 }
 .footer-row {
   display: flex;
   justify-content: center;
+  overflow: hidden;
+}
+.footer-row > div {
+  overflow: hidden;
 }
 .footer-row > div > img {
   width: 250px;
 }
+
 .social-cons {
   display: flex;
   justify-content: space-around;
@@ -682,4 +538,8 @@ a {
   width: 30px;
   height: 30px;
   margin-top: 10px;
+}
+
+.icon {
+  visibility: hidden;
 }
