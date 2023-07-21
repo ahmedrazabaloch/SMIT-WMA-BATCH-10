@@ -9,9 +9,13 @@
 @media only screen and (max-width: 600px) {
 }
 
-/* NavBar */
-
 @media only screen and (max-width: 1200px) {
+  .nav-sec-con {
+    width: 100%;
+  }
+  .bear-img-bt1 {
+    width: 50%;
+  }
   .nav-main {
     width: 100%;
   }
@@ -27,19 +31,6 @@
   .btn-main {
     float: right;
   }
-}
-
-/* First page Two Bear */
-
-@media only screen and (max-width: 1200px) {
-  .nav-sec-con {
-    width: 100%;
-  }
-  .bear-img-bt1 {
-    width: 50%;
-  }
-}
-@media only screen and (max-width: 992px) {
   .bear-img-bt1 {
     width: 100%;
   }
@@ -84,6 +75,16 @@
   }
   .center-containt > img {
     width: 50%;
+  }
+  .fix-wh {
+    width: 100%;
+  }
+  .mlr-auto > div {
+    margin: auto;
+  }
+  .mlr-auto > div > p {
+    margin: 20px 0px !important;
+    text-align: justify;
   }
   .nav-section {
     align-items: end;
@@ -157,4 +158,12 @@
   .flex-box > div > img {
     width: 185%;
   }
+}
+.heading-h1 > h1 {
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 300ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: react-reveal-55192395296336-1;
 }
