@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+.firstNavDiv {
+  background-image: url(imges/firstimg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+  width: 1349px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+.logo {
+  color: white;
+  font-size: 32px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: rgba(34, 193, 195, 1) !important;
+  transition: 0.5s;
+}
+.ContainDiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 10px;
+  height: 300px;
+}
+.ContainDiv div {
+  width: 30%;
+  color: white;
+  margin: 100px 0;
+}
+.leftDiv {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.rightDiv img {
+  width: 80%;
+  margin: 50px 0;
+}
+
+.center {
+  /* margin: 45px auto; */
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 10px 0;
+}
+.courseLogo {
+  display: flex;
+  justify-content: space-around;
+  margin: 45px 0;
+}
+.courseLogo img {
+  height: 95px;
+  width: 85px;
+}
+.textDiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 20px;
+}
+.textDiv > div {
+  width: 300px;
+  font-size: 30px;
+  color: white;
+}
+.secondDiv {
+  background-image: url(imges/secondimg.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+  width: 1349px;
+}
+
+.contact-form {
+  width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #45a049;
+}

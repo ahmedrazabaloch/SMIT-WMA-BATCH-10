@@ -15,13 +15,12 @@
   src: url(Fonts/Helvetica/Helvetica.ttf);
 }
 .container {
-  background-image: url(Images/bg1-min.png);
-  background-size: 100%;
-  min-height: 100vh;
+  background: transparent url(Images/bg1-min.png) 0 0 no-repeat padding-box;
+  /* min-height: 100vh; */
   background-position: bottom;
   width: 100%;
-  background-repeat: no-repeat;
-  background-color: #6e71c7;
+  /* background-color: #6e71c7; */
+  background-size: cover;
 }
 
 /* Global Class Start */
@@ -43,11 +42,14 @@
 
 .nav-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 1320px;
   margin: auto;
-  padding-top: 30px;
+  padding: 30px 0px;
+}
+.nav-main>div>img{
+  margin-right: 20px;
 }
 .unorder-list {
   display: flex;
@@ -90,7 +92,7 @@
   text-align: center;
   display: flex;
   width: 1320px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   margin: 0 auto;
   justify-content: space-around;
   position: relative;

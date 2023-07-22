@@ -81,64 +81,135 @@
 }
 /* Button Animate */
 
-@keyframes flipInX {
+@-webkit-keyframes tada {
   0% {
-    transform: perspective(400px) rotateX(90deg);
-    animation-timing-function: ease-in;
-    opacity: 0;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
   }
-  40% {
-    transform: perspective(400px) rotateX(-20deg);
-    animation-timing-function: ease-in;
+
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
   }
-  60% {
-    transform: perspective(400px) rotateX(10deg);
-    opacity: 1;
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
   }
+
+  40%,
+  60%,
   80% {
-    transform: perspective(400px) rotateX(-5deg);
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
   }
+
   to {
-    transform: perspective(400px);
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
   }
+}
+
+@keyframes tada {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+  }
+
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+.btn:hover {
+  background-color: white;
+  color: #0065c3;
+  -webkit-animation-name: tada !important;
+  animation-name: tada !important;
 }
 .btn-two:hover {
-  backface-visibility: visible !important;
-  animation-name: flipInX;
-  color: #1437bf !important;
-  background-color: #ffffff;
-  font-weight: bold;
-  cursor: none;
-}
-.btn:hover {
-  backface-visibility: visible !important;
-  animation-name: flipInX;
-  color: #1437bf !important;
-  background-color: #ffffff;
-  font-weight: bold;
-  cursor: none;
-  font-size: 1em;
-}
-
-/* Nav Icon Animation */
-
-.nav-container > ul > li > a:hover {
-  text-shadow: 3px 3px 5px rgb(187, 182, 182);
+  background-color: white;
+  color: #0065c3;
+  -webkit-animation-name: tada !important;
+  animation-name: tada !important;
 }
 
 /* Animation END */
 
 /* Navbar Start */
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar {
+  background-color: #0065c3;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+}
+
+.nav-item {
+  margin-right: 1.5rem;
+  font-family: Sofia Pro;
+  font-size: 0.775rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.nav-item > a {
+  color: #fff !important;
+}
+
+.navbar-brand {
+  margin-right: 50px;
+}
+
 .btn {
-  color: #ffffff;
-  background-color: transparent;
-  border-radius: 20px;
-  border: 2px solid #ffffff;
+  font-size: 0.7em;
   line-height: 1.8rem;
-  padding: 5px 20px;
-  font-weight: 800;
-  cursor: none;
+  padding: 2px 20px;
+  border: 2px solid #fff;
+  border-radius: 1.8em;
+  background: transparent;
+  color: #fff;
+  font-family: Sofia Pro;
+  cursor: pointer;
+  font-weight: bold;
 }
 .btn-two {
   color: #ffffff;
@@ -151,47 +222,6 @@
   font-weight: 800;
   cursor: none;
 }
-.navBar {
-  background-color: #0065c3;
-  width: 1380px;
-  height: 80px;
-  margin: 0px auto;
-}
-a {
-  text-decoration: none;
-  color: #ffffff;
-}
-.nav-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.nav-container > ul {
-  display: flex;
-  list-style-type: none;
-  flex: 4;
-  font-family: "sofia-jaani";
-  font-weight: 800;
-}
-.nav-container > ul > li {
-  text-decoration-style: none;
-  margin: 0px 15px;
-}
-.nav-container img {
-  width: 60px;
-  height: 60px;
-}
-.divOne-img {
-  flex: 1;
-  margin-left: 30px;
-}
-.divOne-btn {
-  flex: 2;
-  margin-left: 90px;
-  text-align: center;
-}
 
 /* Head Start */
 
@@ -201,6 +231,8 @@ a {
   height: 590px;
   width: 1380px;
   margin: 0 auto;
+  padding-top: 80px;
+  box-sizing: content-box;
 }
 
 .head-sec-main {

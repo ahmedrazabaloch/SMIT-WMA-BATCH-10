@@ -91,11 +91,11 @@
     width: 100%;
   }
 }
-.sec-two {
+/* .sec-two {
   width: 100%;
   overflow: hidden;
-}
-.three-container {
+} */
+/* .three-container {
   width: 100%;
   padding: 0;
 }
@@ -106,10 +106,10 @@
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  padding: 0;
+  padding: 100px;
 }
 .color-yellow > div > p {
-  width: 100%;
+  width: 100%; */
 }
 @media only screen and (max-width: 768px) {
   .bear-img-bt1 > img {
