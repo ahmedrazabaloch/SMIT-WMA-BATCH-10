@@ -14,7 +14,7 @@
 
 .Container {
   width: 100%;
-  background-color: #1a191d;
+  /* background-color: #1a191d; */
 }
 .container-box {
   width: 1280px;
@@ -82,7 +82,7 @@
 
 /* mainSection */
 
-/* .my-work {
+.my-work {
   width: 420px;
   height: 290px;
   display: flex;
@@ -104,11 +104,10 @@
   zoom: 9;
   transform: scale(0.15);
   transform-origin: 0 0;
-  margin: 0;
-  padding: 0;
-} */
+  border: 2px solid black;
+}
 
-.img-box {
+/* .img-box {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -128,4 +127,4 @@
 }
 .construction > img {
   width: 100%;
-}
+} */

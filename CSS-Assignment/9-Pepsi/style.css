@@ -229,7 +229,7 @@ a {
   background-image: url(Images/background.png);
   background-position: center;
   height: 590px;
-  width: 1380px;
+  width: 1360px;
   margin: 0 auto;
   padding-top: 80px;
   box-sizing: content-box;
@@ -272,7 +272,7 @@ a {
 .first-section {
   background-image: url(Images/PZS-tile-background.png);
   height: 590px;
-  width: 1380px;
+  width: 1360px;
   margin: 0 auto;
 }
 .flex-box {
@@ -321,7 +321,7 @@ a {
 .second-section {
   background-image: url(Images/Desktop_Background.png);
   height: 590px;
-  width: 1380px;
+  width: 1360px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -351,7 +351,7 @@ a {
 
 .third-section {
   height: 590px;
-  width: 1380px;
+  width: 1360px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -384,7 +384,7 @@ a {
 /* Four Section Start  */
 .four-section {
   height: 590px;
-  width: 1380px;
+  width: 1360px;
   margin: 0 auto;
   background-color: #004996;
 }
@@ -423,7 +423,7 @@ a {
 
 .fift-section {
   height: 590px;
-  width: 1380px;
+  width: 1360px;
   margin: 0 auto;
 }
 .fifth-one {
@@ -437,7 +437,7 @@ a {
 
 .six-section {
   height: 590px;
-  width: 1380px;
+  width: 1360px;
   margin: 0 auto;
   background-image: url(Images/twil-bg.jpg);
 }
@@ -454,7 +454,7 @@ a {
 /* Seven Section Start */
 .seven-section {
   height: 590px;
-  width: 1380px;
+  width: 1360px;
   margin: 0 auto;
   background-color: #0065c3;
   justify-content: center;
@@ -489,7 +489,7 @@ a {
 /* Footer Start */
 .footer {
   height: 320px;
-  width: 1380px;
+  width: 1360px;
   margin: 0 auto;
   position: relative;
 }
@@ -530,7 +530,7 @@ a {
 /* last footer start */
 .footer-end {
   height: 250px;
-  width: 1380px;
+  width: 1360px;
   margin: 0 auto;
   background-color: #0065c3;
   position: relative;
