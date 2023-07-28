@@ -14,7 +14,10 @@
   width: 100%;
   height: 80px;
   z-index: 1;
-  /* position: fixed; */
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 .logo {
   max-width: 1320px;
@@ -22,7 +25,7 @@
 }
 .logo > img {
   width: 180px;
-  margin: 25px 0 0 50px;
+  margin: 20px 0 0 50px;
 }
 .logo:hover {
   transform: translateY(-9px);
@@ -39,6 +42,7 @@
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
+  padding-top: 80px;
 }
 .head-box {
   max-width: 1320px;
@@ -51,7 +55,6 @@
 .head-right {
   width: 50%;
   padding: 0px 50px;
-  font-size: 18px;
 }
 .head-left > h1 {
   color: #1b4541;
@@ -64,14 +67,14 @@
 
 .head-left > p {
   width: 90%;
-  text-align: justify;
+  text-align: left;
   margin-top: 20px;
-  line-height: 30px;
+  font-size: 1.5em;
 }
 .head-left > p > span {
   color: #1b4541;
   font-weight: 600;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 .head-right > img {
   width: 100%;
@@ -133,7 +136,7 @@ a {
   justify-content: center;
 }
 .main-container > h2 {
-  font-size: 4em;
+  font-size: 5vw;
   margin-bottom: 50px;
   color: #f4faeb;
   text-align: center;
@@ -141,10 +144,14 @@ a {
 .img-container {
   width: 30%;
   height: 280px;
-  border: 1px solid #f4faeb;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   text-align: center;
-  color: #f4faeb;
+  background-color: #f4faeb;
 }
 .img-container > a > img {
   width: 100%;
+}
+.img-text {
+  font-size: 1em;
+  color: #1b4541;
 }
