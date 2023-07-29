@@ -10,7 +10,7 @@
 /* <<<<<<<<< NAVBAR >>>>>>>>>> */
 
 .navbar {
-  background-color: #f4faeb;
+  background-color: rgba(244, 250, 235, 0.7);
   width: 100%;
   height: 80px;
   z-index: 1;
@@ -84,13 +84,14 @@ a {
   color: #f4faeb;
 }
 .btn {
-  font-size: 1rem;
+  font-size: 0.9rem;
   border: none;
   border-radius: 5px;
   width: 9rem;
   height: 3rem;
   background-color: #1b4541;
   margin: 20px 0px;
+  padding: 5px;
 }
 .btn:hover {
   background-color: #7d8179;
@@ -121,7 +122,7 @@ a {
     line-height: 30px;
   }
 }
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px) {
   .head-left > h1 {
     font-size: 2.5em;
   }
@@ -137,12 +138,24 @@ a {
 
 .main-container {
   width: 100%;
-  background-color: #1b4541;
   position: relative;
   box-sizing: border-box;
-  /* overflow: hidden; */
   font-size: 18px;
   padding-top: 50px;
+}
+.green-color {
+  background-color: #1b4541;
+  color: #f4faeb;
+}
+.green-color > a > div {
+  color: #f4faeb;
+}
+.white-color {
+  background-color: #f4faeb;
+  color: #1b4541;
+}
+.white-color > a > div {
+  color: #1b4541;
 }
 .main-box {
   max-width: 1320px;
@@ -150,13 +163,11 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
 }
 .main-container > h2 {
   font-size: 5vw;
-  margin-bottom: 50px;
-  color: #f4faeb;
   text-align: center;
 }
 .img-container {
@@ -164,15 +175,15 @@ a {
   height: 280px;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   text-align: center;
-  background-color: #f4faeb;
+  margin: 25px 0px;
 }
 .img-container > a > img {
   width: 100%;
 }
 .img-text {
   font-size: 1em;
-  color: #1b4541;
 }
+
 @media only screen and (max-width: 768px) {
   .img-container {
     width: 40%;
