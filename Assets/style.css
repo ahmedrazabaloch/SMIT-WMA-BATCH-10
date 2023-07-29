@@ -187,9 +187,9 @@ a {
 }
 .img-container {
   width: 30%;
-  height: 280px;
+  height: 265px;
   text-align: center;
-  margin-bottom:30px;
+  margin-bottom: 30px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .img-container > a > img {
@@ -197,8 +197,13 @@ a {
 }
 .img-text {
   font-size: 1em;
+  position: relative;
+  top: 5px;
 }
-
+.img-container:hover {
+  transform: scale(1.1);
+  transition: 0.4s ease-in-out;
+}
 @media only screen and (max-width: 768px) {
   .img-container {
     width: 40%;
