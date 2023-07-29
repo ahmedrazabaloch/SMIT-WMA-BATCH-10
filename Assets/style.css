@@ -7,23 +7,37 @@
   font-family: "Poppins", sans-serif;
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 50px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 800;
+  color: #7d8179;
+}
 /* <<<<<<<<< NAVBAR >>>>>>>>>> */
 
 .navbar {
-  background-color: rgba(244, 250, 235, 0.7);
+  background-color: rgba(244, 250, 235, 1);
   width: 100%;
   height: 80px;
   z-index: 1;
   position: fixed;
   margin: 0;
   padding: 0;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .logo {
   max-width: 1320px;
   margin: 0 auto;
 }
-.logo > img {
+.logo > a > img {
   width: 180px;
   margin: 20px 0 0 50px;
 }
@@ -169,13 +183,14 @@ a {
 .main-container > h2 {
   font-size: 5vw;
   text-align: center;
+  margin-bottom: 50px;
 }
 .img-container {
   width: 30%;
   height: 280px;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   text-align: center;
-  margin: 25px 0px;
+  margin-bottom:30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .img-container > a > img {
   width: 100%;
