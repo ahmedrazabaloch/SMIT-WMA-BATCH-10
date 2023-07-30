@@ -36,6 +36,7 @@
 .logo {
   max-width: 1320px;
   margin: 0 auto;
+  transition: 0.5s;
 }
 .logo > a > img {
   width: 180px;
@@ -43,10 +44,8 @@
 }
 .logo:hover {
   transform: translateY(-9px);
-  transition-property: transform;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in-out;
   cursor: pointer;
+  transition-timing-function: ease-in-out;
 }
 /* <<<<<<<<< header >>>>>>>>>> */
 
@@ -109,11 +108,13 @@ a {
   padding: 0px 20px;
   width: auto;
   font-weight: 600;
+  transition: 0.5s;
 }
 .btn:hover {
   background-color: #7d8179;
   cursor: pointer;
   color: #1b4541;
+  transition-timing-function: ease-in-out;
 }
 
 @media only screen and (max-width: 768px) {
@@ -217,6 +218,7 @@ a {
   text-align: center;
   margin-bottom: 30px;
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  transition: 0.6s;
 }
 .img-container > a > img {
   width: 100%;
@@ -227,8 +229,9 @@ a {
   top: 5px;
 }
 .img-container:hover {
-  transform: scale(1.1);
-  transition: all 0.2s ease-out;
+  transform: scale(1.09);
+  transition-timing-function: ease-in-out;
+  box-shadow: none;
 }
 @media only screen and (max-width: 768px) {
   .img-container {
@@ -284,9 +287,12 @@ a {
   font-size: 2rem;
   margin: 0px 5px;
   text-align: center;
+  transition: 0.4s;
 }
 .footer-right > div > a > i:hover {
   color: #7d8179;
+  transition-timing-function: ease-in-out;
+  transform: translateY(-5px);
 }
 hr {
   width: 90%;
