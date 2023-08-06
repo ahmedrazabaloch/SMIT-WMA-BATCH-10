@@ -271,6 +271,19 @@ a {
     font-size: 0.9em;
     padding: 10px 0px;
   }
+  .Project-Container{
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .project-box{
+    flex-direction: column;
+  }
+  .left > a > div > img{
+    width: 100%;
+  }
+  .left{
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 425px) {
   .img-container {
