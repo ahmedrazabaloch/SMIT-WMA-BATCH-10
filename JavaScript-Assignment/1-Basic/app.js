@@ -232,24 +232,41 @@
 
 // var table = 4;
 // var value = table + 4;
-// console.log(table + "x" + "1=" + table);
-// console.log(table + "x" + "2=" + value);
+// document.write(table + "x" + "1=" + table);
+
+// document.write(table + "x" + "2=" + value);
+
 // value = value + 4;
-// console.log(table + "x" + "3=" + value);
+
+// document.write(table + "x" + "3=" + value);
+
 // value = value + 4;
-// console.log(table + "x" + "4=" + value);
+
+// document.write(table + "x" + "4=" + value);
+
 // value = value + 4;
-// console.log(table + "x" + "5=" + value);
+
+// document.write(table + "x" + "5=" + value);
+
 // value = value + 4;
-// console.log(table + "x" + "6=" + value);
+
+// document.write(table + "x" + "6=" + value);
+
 // value = value + 4;
-// console.log(table + "x" + "7=" + value);
+
+// document.write(table + "x" + "7=" + value);
+
 // value = value + 4;
-// console.log(table + "x" + "8=" + value);
+
+// document.write(table + "x" + "8=" + value);
+
 // value = value + 4;
-// console.log(table + "x" + "9=" + value);
+
+// document.write(table + "x" + "9=" + value);
+
 // value = value + 4;
-// console.log(table + "x" + "10=" + value);
+
+// document.write(table + "x" + "10=" + value);
 
 // Question No 06
 
