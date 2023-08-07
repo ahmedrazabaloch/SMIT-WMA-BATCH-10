@@ -120,7 +120,7 @@ a {
 @media only screen and (max-width: 768px) {
   .head-box {
     flex-direction: column;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding: 0px;
     text-align: center;
   }
@@ -210,7 +210,7 @@ a {
   justify-content: space-evenly;
 }
 .left > a > div > img {
-  width: 700px;
+  width: 50vw;
 }
 .right {
   text-align: center;
@@ -271,17 +271,17 @@ a {
     font-size: 0.9em;
     padding: 10px 0px;
   }
-  .Project-Container{
+  .Project-Container {
     height: auto;
     padding-bottom: 30px;
   }
-  .project-box{
+  .project-box {
     flex-direction: column;
   }
-  .left > a > div > img{
+  .left > a > div > img {
     width: 100%;
   }
-  .left{
+  .left {
     width: 100%;
   }
 }
@@ -343,4 +343,9 @@ hr {
 }
 .copyright {
   text-align: center;
+}
+@media only screen and (max-width: 1320px) {
+  .head-box {
+    padding-top: 80px;
+  }
 }
