@@ -195,34 +195,116 @@
 
 // Question No 03
 
-console.log();
+// var a = "undifined";
+
+// console.log("Value after variable declaration is: " + a);
+
+// a = 5;
+// console.log("Initial value: " + a);
+
+// a = ++a;
+// console.log("Value after increment is:" + a);
+
+// var a = a + 7;
+
+// console.log("value after addition is " + a);
+
+// a = --a;
+
+// console.log("Value after decrement is:" + a);
+
+// console.log("The remainder is " + a % 3);
+
 // Question No 04
 
-console.log();
+// var ticketCost = 600;
+// var value = 5;
+
+// console.log(
+//   "total cost of buy " +
+//     value +
+//     " ticket to a movie is " +
+//     ticketCost * value +
+//     "PKR"
+// );
+
 // Question No 05
 
-console.log();
+// var table = 4;
+// var value = table + 4;
+// console.log(table + "x" + "1=" + table);
+// console.log(table + "x" + "2=" + value);
+// value = value + 4;
+// console.log(table + "x" + "3=" + value);
+// value = value + 4;
+// console.log(table + "x" + "4=" + value);
+// value = value + 4;
+// console.log(table + "x" + "5=" + value);
+// value = value + 4;
+// console.log(table + "x" + "6=" + value);
+// value = value + 4;
+// console.log(table + "x" + "7=" + value);
+// value = value + 4;
+// console.log(table + "x" + "8=" + value);
+// value = value + 4;
+// console.log(table + "x" + "9=" + value);
+// value = value + 4;
+// console.log(table + "x" + "10=" + value);
+
 // Question No 06
 
-console.log();
+// console.log();
 // Question No 07
 
-console.log();
+// var item1 = 650;
+// var qunitem1 = 3;
+// var item2 = 100;
+// var qunitem2 = 7;
+// var dCharges = 100;
+// console.log("Shoping Cart");
+// console.log("Price of item-1 : " + item1);
+// console.log("quantity of item-1 : " + qunitem1);
+// console.log("Price of item-2 : " + item2);
+// console.log("quantity of item-2 : " + qunitem2);
+// console.log("Shipping Charges : " + dCharges);
+// console.log(
+//   "Total cost of your order is : " +
+//     (item1 * qunitem1 + item2 * qunitem2 + dCharges)
+// );
+
 // Question No 08
+// console.log("Mark Sheet");
 
-console.log();
+// var mark=980
+// var obtained=804
+// console.log("Total Marks : " + mark)
+// console.log("Marks Obtained: " + obtained)
+// console.log("Percentage " + ((obtained/mark)*100)+ "%")
+
 // Question No 09
+// console.log("Currency PKR");
 
-console.log();
+// var usd=104.80
+// var sRiyal=28
+
+// console.log("Total Currency in PKR : "+ ((usd*10)+(sRiyal*25)))
+
 // Question No 10
+// var number=7
+// console.log((((number+5)+(number*10))+(number/2)))
 
-console.log();
 // Question No 11
 
-console.log();
+// var currentYear = 2023;
+// var birthYear = 1995;
+
+// console.log("Current Year: " + currentYear);
+// console.log("Birth Year: " + birthYear);
+// console.log("Your Age is: " + (currentYear-birthYear));
+
 // Question No 12
 
-console.log();
+// console.log();
 // Question No 13
 
-console.log();
+// console.log();
