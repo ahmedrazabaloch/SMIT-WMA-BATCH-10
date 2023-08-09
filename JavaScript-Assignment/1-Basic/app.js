@@ -77,6 +77,10 @@
 
 // var book="A smarter way to learn JavaScript."
 
+// Question No 08
+
+// document.write("Yah! I can write HTML content through JavaScript")
+
 // alert(msgBook+book)
 
 // Question No 09
@@ -101,10 +105,11 @@
 
 // Question No 03
 
-// var msg="My Birth Year is "
+// var msg = "My Birth Year is ";
 // var birthYear = 1995;
 
-// console.log(msg + birthYear + "\nData type of my declared variable is number");
+// document.write(msg + birthYear);
+// document.write(" <br/> Data type of my declared variable is number");
 
 // Question No 04
 
@@ -113,17 +118,18 @@
 // var quntaity = 5;
 // var store = "www.chaman.com";
 
-// console.log(visitorName + " ordered " + quntaity + productTitle + " from " + store);
+// document.write(
+//   visitorName + " ordered " + quntaity + " " + productTitle + " from " + store
+// );
 
 //                           <<<<<<<<<<<<<<<<<< Chapter No 04 >>>>>>>>>>>>>>>>>>
 
 // Question No 01
 
 // var no1 = 1,
-//   no2 = 2,
-//   no3 = 3;
-
-// alert(no1 + no2 + no3);
+//   noTwo = 2,
+//   no_3 = 3;
+// document.write(no1 + noTwo + no_3);
 
 // Question No 02
 
@@ -155,72 +161,73 @@
 // var d = "Variable names are case" + " sensitive";
 // var e = "Variable names should not be JS" + " Keywards";
 
-// console.log(a + "\n" + b + "\n" + c + "\n" + d + "\n" + e);
+// document.write(a + "<br/>" + b + "<br/>" + c + "<br/>" + d + "<br/>" + e);
 
 //                           <<<<<<<<<<<<<<<<<< Chapter No 05 >>>>>>>>>>>>>>>>>>
 
 // Question No 01
+
 // var no = 3;
 // var add = 5;
 // var msg1 = "Sum of ";
 // var msg2 = " and ";
 // var msg3 = " is ";
 
-// console.log(msg1 + no + msg2 + add + msg3 + (no + add));
+// document.write(msg1 + no + msg2 + add + msg3 + (no + add));
 
 // Question No 02
 // var no = 3;
 // var add = 5;
-// var msg1 = "division ";
-// var msg2 = " and ";
-// var msg3 = " is ";
+// var msg1 = "division value if ";
+// var msg2 = " Divided ";
+// var msg3 = " answer is ";
 
-// console.log(msg1 + no + msg2 + add + msg3 + (no / add));
-
-// var no = 3;
-// var add = 5;
-// var msg1 = "subtraction ";
-// var msg2 = " and ";
-// var msg3 = " is ";
-
-// console.log(msg1 + no + msg2 + add + msg3 + (no - add));
+// document.write(msg1 + no  + msg2 + add + msg3 + no / add);
 
 // var no = 3;
 // var add = 5;
-// var msg1 = "modulus ";
-// var msg2 = " and ";
-// var msg3 = " is ";
+// var msg1 = "subtraction value if ";
+// var msg2 = " subtract ";
+// var msg3 = " answer is ";
 
-// console.log(msg1 + no + msg2 + add + msg3 + (no * add));
+// document.write("<br/>" + msg1 + no + msg2 + add + msg3 + (add - no));
+
+// var no = 3;
+// var add = 6;
+// var msg1 = "modulus value if ";
+// var msg2 = " Remainder ";
+// var msg3 = " answer is ";
+
+// document.write("<br/>" + msg1 + no + msg2 + add + msg3 + no % add);
 
 // Question No 03
 
 // var a = "undifined";
 
-// console.log("Value after variable declaration is: " + a);
+// document.write("Value after variable declaration is: " + a);
 
 // a = 5;
-// console.log("Initial value: " + a);
+// document.write(" <br/> Initial value: " + a);
 
 // a = ++a;
-// console.log("Value after increment is:" + a);
+// document.write(" <br/> Value after increment is:" + a);
 
 // var a = a + 7;
 
-// console.log("value after addition is " + a);
+// document.write(" <br/> value after addition is " + a);
 
 // a = --a;
 
-// console.log("Value after decrement is:" + a);
+// document.write(" <br/> Value after decrement is:" + a);
 
-// console.log("The remainder is " + a % 3);
+// document.write(" <br/> The remainder is " + a % 3);
 
 // Question No 04
 
 // var ticketCost = 600;
 // var value = 5;
 
-// console.log(
+// document.write(
 //   "total cost of buy " +
 //     value +
 //     " ticket to a movie is " +
@@ -231,46 +238,27 @@
 // Question No 05
 
 // var table = 4;
-// var value = table + 4;
-// document.write(table + "x" + "1=" + table);
-
-// document.write(table + "x" + "2=" + value);
-
-// value = value + 4;
-
-// document.write(table + "x" + "3=" + value);
-
-// value = value + 4;
-
-// document.write(table + "x" + "4=" + value);
-
-// value = value + 4;
-
-// document.write(table + "x" + "5=" + value);
-
-// value = value + 4;
-
-// document.write(table + "x" + "6=" + value);
-
-// value = value + 4;
-
-// document.write(table + "x" + "7=" + value);
-
-// value = value + 4;
-
-// document.write(table + "x" + "8=" + value);
-
-// value = value + 4;
-
-// document.write(table + "x" + "9=" + value);
-
-// value = value + 4;
-
-// document.write(table + "x" + "10=" + value);
+// document.write(" </br> 4 x 1 = " + table * 1);
+// document.write(" </br> 4 x 1 = " + table * 2);
+// document.write(" </br> 4 x 1 = " + table * 3);
+// document.write(" </br> 4 x 1 = " + table * 4);
+// document.write(" </br> 4 x 1 = " + table * 5);
+// document.write(" </br> 4 x 1 = " + table * 6);
+// document.write(" </br> 4 x 1 = " + table * 7);
+// document.write(" </br> 4 x 1 = " + table * 8);
+// document.write(" </br> 4 x 1 = " + table * 9);
+// document.write(" </br> 4 x 1 = " + table * 10);
 
 // Question No 06
 
-// console.log();
+// var c = 25;
+// var f = 70;
+// var cValue = (c * 9) / 5 + 32;
+// var fValue = ((f - 32) * 5) / 9;
+
+// document.write("25C " + " is " + cValue + "F");
+// document.write(" <br/> 70F " + " is " + fValue + "C");
+
 // Question No 07
 
 // var item1 = 650;
@@ -278,37 +266,39 @@
 // var item2 = 100;
 // var qunitem2 = 7;
 // var dCharges = 100;
-// console.log("Shoping Cart");
-// console.log("Price of item-1 : " + item1);
-// console.log("quantity of item-1 : " + qunitem1);
-// console.log("Price of item-2 : " + item2);
-// console.log("quantity of item-2 : " + qunitem2);
-// console.log("Shipping Charges : " + dCharges);
-// console.log(
+// document.write("Shoping Cart");
+// document.write(" <br/> Price of item-1 : " + item1);
+// document.write(" <br/> quantity of item-1 : " + qunitem1);
+// document.write(" <br/> Price of item-2 : " + item2);
+// document.write(" <br/> quantity of item-2 : " + qunitem2);
+// document.write(" <br/> Shipping Charges : " + dCharges);
+// document.write(
 //   "Total cost of your order is : " +
 //     (item1 * qunitem1 + item2 * qunitem2 + dCharges)
 // );
 
 // Question No 08
-// console.log("Mark Sheet");
+// document.write("Mark Sheet");
 
-// var mark=980
-// var obtained=804
-// console.log("Total Marks : " + mark)
-// console.log("Marks Obtained: " + obtained)
-// console.log("Percentage " + ((obtained/mark)*100)+ "%")
+// var mark = 980;
+// var obtained = 804;
+// document.write(" <br/> Total Marks : " + mark);
+// document.write(" <br/> Marks Obtained: " + obtained);
+// document.write(" <br/> Percentage " + (obtained / mark) * 100 + "%");
 
 // Question No 09
-// console.log("Currency PKR");
+// document.write("Currency PKR");
 
-// var usd=104.80
-// var sRiyal=28
+// var usd = 104.8;
+// var sRiyal = 28;
 
-// console.log("Total Currency in PKR : "+ ((usd*10)+(sRiyal*25)))
+// document.write(" <br/> Total Currency in PKR : " + (usd * 10 + sRiyal * 25));
 
 // Question No 10
-// var number=7
-// console.log((((number+5)+(number*10))+(number/2)))
+
+// var number = 7;
+// document.write(number + 5 + number * 10 + number / 2);
+
 
 // Question No 11
 
