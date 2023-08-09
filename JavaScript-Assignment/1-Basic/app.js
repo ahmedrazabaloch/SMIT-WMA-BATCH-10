@@ -113,7 +113,7 @@
 
 // Question No 04
 
-// var visitorName = "ahmed";
+// var visitorName = "Ahmed";
 // var productTitle = "t-shirts";
 // var quntaity = 5;
 // var store = "www.chaman.com";
@@ -151,7 +151,7 @@
 
 // Question No 03
 
-// var a = "“Rules for naming JS variables”";
+// var a = "<h3>Rules for naming JS variables</h3>";
 // var b =
 //   "Variable names can only contain" +
 //   "numbers," +
@@ -266,7 +266,8 @@
 // var item2 = 100;
 // var qunitem2 = 7;
 // var dCharges = 100;
-// document.write("Shoping Cart");
+
+// document.write("<h1>Shoping Cart</h1>");
 // document.write(" <br/> Price of item-1 : " + item1);
 // document.write(" <br/> quantity of item-1 : " + qunitem1);
 // document.write(" <br/> Price of item-2 : " + item2);
@@ -278,7 +279,8 @@
 // );
 
 // Question No 08
-// document.write("Mark Sheet");
+
+// document.write("<h1>Mark Sheet</h1>");
 
 // var mark = 980;
 // var obtained = 804;
@@ -287,7 +289,8 @@
 // document.write(" <br/> Percentage " + (obtained / mark) * 100 + "%");
 
 // Question No 09
-// document.write("Currency PKR");
+
+// document.write("<h1>Currency PKR</h1>");
 
 // var usd = 104.8;
 // var sRiyal = 28;
@@ -304,20 +307,38 @@
 // var currentYear = 2023;
 // var birthYear = 1995;
 
-// console.log("Current Year: " + currentYear);
-// console.log("Birth Year: " + birthYear);
-// console.log("Your Age is: " + (currentYear-birthYear));
+// document.write("<h1>Age Calculator</h1>");
+
+// document.write("<br/>Current Year: " + currentYear);
+// document.write("<br/>Birth Year: " + birthYear);
+// document.write("<br/>Your Age is: " + (currentYear - birthYear));
 
 // Question No 12
-// var circle = 20;
-// var pi = 2 * 3.142;
-// var circum = circle * pi;
-// document.write("<h1>The Geometrizer</h1>");
-// document.write("Radius of circle : " + circle);
-// document.write(" <br/> The circumference is : " + circum);
-// document.write(" <br/> The area is : " + (circum + 3.142));
 
-// console.log();
+// var radius = 20;
+// var circumference = 2 * Math.PI * radius;
+// var area = Math.PI * Math.pow(radius, 2);
+
+// document.write("<h1>The Geometrizer</h1>");
+// document.write(" <br /> Radius of a circle: " + radius);
+// document.write(" <br /> The circumference is " + circumference);
+// document.write(" <br /> The area is " + area);
+
 // Question No 13
 
-// console.log();
+// document.write("<h1>The Life Time Supply Calculator</h1>");
+
+// var fSnake = "Chocolate chips";
+// var cAge = 15;
+// var expairy = 65;
+// var perDay = 3;
+// document.write("Favourite Snack: " + fSnake);
+// document.write(" <br /> Current Age: " + cAge);
+// document.write(" <br /> Extimated Maximum Age: " + expairy);
+// document.write(" <br /> Amount of Snack Per Day: ");
+// document.write(
+//   " <br /> You will need " +
+//     (expairy - cAge) * 3 +
+//     " chocolate chip to last you until the ripe old age of " +
+//     expairy
+// );
