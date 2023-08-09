@@ -299,7 +299,6 @@
 // var number = 7;
 // document.write(number + 5 + number * 10 + number / 2);
 
-
 // Question No 11
 
 // var currentYear = 2023;
@@ -310,6 +309,13 @@
 // console.log("Your Age is: " + (currentYear-birthYear));
 
 // Question No 12
+// var circle = 20;
+// var pi = 2 * 3.142;
+// var circum = circle * pi;
+// document.write("<h1>The Geometrizer</h1>");
+// document.write("Radius of circle : " + circle);
+// document.write(" <br/> The circumference is : " + circum);
+// document.write(" <br/> The area is : " + (circum + 3.142));
 
 // console.log();
 // Question No 13
