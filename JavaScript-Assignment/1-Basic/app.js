@@ -65,11 +65,11 @@
 
 // Question No 06
 
-// var msg="My email address is : "
+// var msg="My email address is :"
 
 // var email="ahmedraza.1054@gmail.com"
 
-// alert(msg + email)
+// alert(msg +" "+ email)
 
 // Question No 07
 
@@ -77,11 +77,11 @@
 
 // var book="A smarter way to learn JavaScript."
 
+// alert(msgBook+" "+book)
+
 // Question No 08
 
 // document.write("Yah! I can write HTML content through JavaScript")
-
-// alert(msgBook+book)
 
 // Question No 09
 
@@ -93,22 +93,21 @@
 
 // Question No 01
 
-// var age="i am 28 years old"
+// var age = 28;
 
-// alert(age)
+// alert("i am " + age + " years old");
 
 // Question No 02
 
-// var visitCount="Youhave visited this site 69 times."
+// var visitCount = 69;
 
-// alert(visitCount)
+// alert("You have visited this site " + visitCount + " times.");
 
 // Question No 03
 
-// var msg = "My Birth Year is ";
 // var birthYear = 1995;
 
-// document.write(msg + birthYear);
+// document.write("My Birth Year is " + birthYear);
 // document.write(" <br/> Data type of my declared variable is number");
 
 // Question No 04
@@ -135,19 +134,19 @@
 
 // Five illegal variables
 
-// var "name"="ahmed"
-// var 1="ahmed"
-// var 1name="ahmed"
-// var full name="ahmedraza"
-// var var="hello world"
+// var illegal_1 = "A number cannot be the initial character";
+// var illegal_2 = "A variable name cannot start with a numeral";
+// var illegal_3 = "Spaces are not allowed in variable names";
+// var illegal_4 = "Hyphens are not allowed in variable names";
+// var illegal_5 = "The variable name can not be the same as JavaScript keywords";
 
 // Five legal variables
 
-// var fullName=""
-// var batch10=""
-// var course$timing=""
-// var institute_name=""
-// var adress=""
+// var legal_1="A letter"
+// var legal_2="dollar sign( $ )"
+// var legal_3="underscore ( _ )"
+// var legal_4="letter then Number 1"
+// var legal_5=""
 
 // Question No 03
 
