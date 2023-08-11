@@ -175,29 +175,18 @@
 // document.write(msg1 + no + msg2 + add + msg3 + (no + add));
 
 // Question No 02
-// var no = 3;
-// var add = 5;
-// var msg1 = "division value if ";
-// var msg2 = " Divided ";
-// var msg3 = " answer is ";
-
-// document.write(msg1 + no  + msg2 + add + msg3 + no / add);
 
 // var no = 3;
 // var add = 5;
-// var msg1 = "subtraction value if ";
-// var msg2 = " subtract ";
-// var msg3 = " answer is ";
+// document.write("division value if " + no  +" Divided " + add + " answer is " + no / add);
 
-// document.write("<br/>" + msg1 + no + msg2 + add + msg3 + (add - no));
+// var no = 3;
+// var add = 5;
+// document.write("<br/>" +"subtraction value if "+ no + " subtract " + add + " answer is " + (add - no));
 
 // var no = 3;
 // var add = 6;
-// var msg1 = "modulus value if ";
-// var msg2 = " Remainder ";
-// var msg3 = " answer is ";
-
-// document.write("<br/>" + msg1 + no + msg2 + add + msg3 + no % add);
+// document.write("<br/>" + "modulus value if " + no + " Remainder "+ add + " answer is " + no % add);
 
 // Question No 03
 
