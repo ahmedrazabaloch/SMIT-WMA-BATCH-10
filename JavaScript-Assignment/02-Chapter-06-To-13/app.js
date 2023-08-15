@@ -220,5 +220,102 @@
 //   document.write(" <br/> Remarks : Sorry");
 // }
 
-
 // Quesiton NO-7
+
+// var secrectNo = 7;
+
+// var guessNo = +prompt("Guess a number");
+
+// if (guessNo === secrectNo) {
+//   alert("Bingo! Correct Answer.");
+// } else if (guessNo === ++secrectNo) {
+//   alert("Close enough to the correct answer");
+// } else if (guessNo !== secrectNo) {
+//   alert("Try Again");
+// }
+
+// Quesiton NO-8
+
+// var divisible = +prompt("Enter a number:");
+
+// if (divisible % 3 === 0) {
+//   alert(divisible + " is divisible by 3");
+// } else {
+//   alert(divisible + " is not divisible by 3");
+// }
+
+// Quesiton NO-9
+
+// var num = prompt("Enter a number");
+
+// if (num % 2 === 0) {
+//   alert(num + " is Even Number");
+// } else if (num % 1 === 0) {
+//   alert(num + " is Odd Number");
+// }
+
+// Quesiton NO-10
+
+// var temp = prompt("Weather temperature is ?");
+
+// if (temp >= 40) {
+//   alert("It is too hot outside.");
+// } else if (temp >= 30) {
+//   alert("The Weather today is Normal.");
+// } else if (temp >= 20) {
+//   alert("Today’s Weather is cool.");
+// } else if (temp >= 10) {
+//   alert("OMG! Today’s weather is so Cool.");
+// }
+
+// Quesiton NO-11
+
+// var firstNum = +prompt("Enter First value");
+// var secondNum = +prompt("Enter Second value");
+// var oprationSign = prompt("Enter a Operation Sign For Calculation (+, -, *, /, %)");
+
+// var result;
+
+// if (oprationSign === "+") {
+//   result = firstNum + secondNum;
+//   alert("Calculated value is " + result);
+// } else if (oprationSign === "-") {
+//   result = firstNum - secondNum;
+//   alert("Calculated value is " + result);
+// } else if (oprationSign === "*") {
+//   result = firstNum * secondNum;
+//   alert("Calculated value is " + result);
+// } else if (oprationSign === "/") {
+//   result = firstNum / secondNum;
+//   alert("Calculated value is " + result);
+// } else if (oprationSign === "%") {
+//   result = firstNum % secondNum;
+//   alert("Calculated value is " + result);
+// }
+
+// <<<<<<<<<<<<<<<< Capter 12-13 >>>>>>>>>>>>>>>>
+
+// Question No-5
+
+// var userPass = prompt("Create a password");
+// var validPass = prompt("Please enter your passowrd");
+
+// if (userPass === "" || validPass === "") {
+//   alert("Please enter your password");
+// } else if (userPass === validPass) {
+//   alert("Correct! The password you entered matches the original password");
+// } else if (userPass !== validPass) {
+//   alert("Incorrect password");
+// }
+
+// Question No-6
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//   greeting = "Good day";
+//   alert(greeting);
+// } else {
+//   greeting = "Good evening";
+//   alert(greeting);
+// }
