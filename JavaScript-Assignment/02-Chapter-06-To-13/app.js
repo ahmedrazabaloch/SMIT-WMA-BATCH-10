@@ -297,15 +297,15 @@
 
 // Question No-1
 
+var value = prompt("Please enter a value");
+
+
 
 // Question No-2
 
-
 // Question No-3
 
-
 // Question No-4
-
 
 // Question No-5
 
