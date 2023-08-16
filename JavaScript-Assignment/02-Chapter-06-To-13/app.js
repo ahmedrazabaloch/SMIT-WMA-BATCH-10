@@ -295,6 +295,18 @@
 
 // <<<<<<<<<<<<<<<< Capter 12-13 >>>>>>>>>>>>>>>>
 
+// Question No-1
+
+
+// Question No-2
+
+
+// Question No-3
+
+
+// Question No-4
+
+
 // Question No-5
 
 // var userPass = prompt("Create a password");
@@ -318,4 +330,20 @@
 // } else {
 //   greeting = "Good evening";
 //   alert(greeting);
+// }
+
+// Question No-7
+
+// var time = +prompt("What time is it?");
+
+// if (time >= "0000" && time < 1200) {
+//   alert("Good Morning!");
+// } else if (time >= 1200 && time < 1700) {
+//   alert("Good Afternoon!");
+// } else if (time >= 1700 && time < 2100) {
+//   alert("Good Evening!");
+// } else if (time >= 2100 && time <= 2359) {
+//   alert("Good Night!");
+// } else {
+//   alert("please input value in business hours like (1300=01:00pm)");
 // }
