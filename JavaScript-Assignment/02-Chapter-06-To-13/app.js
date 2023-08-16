@@ -297,15 +297,31 @@
 
 // Question No-1
 
-var value = prompt("Please enter a value");
-
-
-
 // Question No-2
 
 // Question No-3
 
-// Question No-4
+// var num = +prompt("Enter a number");
+
+// if (num > 0) {
+//   alert("The number is positive");
+// } else if (num === 0) {
+//   alert("The numer is zero");
+// } else {
+//   alert("The number is negative");
+// }
+
+// Question No-4 need to b check
+
+// var user = prompt("Give a value");
+
+// var vowel =  ;
+
+// if (user.length === 1 && user === vowel) {
+//   alert(user + " The character is a vowel");
+// } else {
+//   alert("Negative please enter a single alphabetic character.");
+// }
 
 // Question No-5
 
