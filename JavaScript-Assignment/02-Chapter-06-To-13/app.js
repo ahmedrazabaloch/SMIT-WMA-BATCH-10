@@ -45,11 +45,18 @@
 
 // Question-4,5
 
-// var num = prompt("write a number", 5);
-// for (var i = 1; i <= 10; i++) {
-//   var result = num * i;
-//   document.write(num + " x " + i + " = " + result + "<br>");
-// }
+// var table = prompt("write a number", 5);
+
+// document.write(" </br>" + table + " x 1 = " + table * 1);
+// document.write(" </br>" + table + " x 2 = " + table * 2);
+// document.write(" </br>" + table + " x 3 = " + table * 3);
+// document.write(" </br>" + table + " x 4 = " + table * 4);
+// document.write(" </br>" + table + " x 5 = " + table * 5);
+// document.write(" </br>" + table + " x 6 = " + table * 6);
+// document.write(" </br>" + table + " x 7 = " + table * 7);
+// document.write(" </br>" + table + " x 8 = " + table * 8);
+// document.write(" </br>" + table + " x 9 = " + table * 9);
+// document.write(" </br>" + table + " x 10 = " + table * 10);
 
 // Question-6
 
@@ -297,7 +304,31 @@
 
 // Question No-1
 
+// var userInput = prompt("Please enter a value");
+// var charCode = userInput.charCodeAt();
+
+// if (charCode >= 48 && charCode <= 57) {
+//   alert("It's a Number");
+// } else if (charCode >= 65 && charCode <= 90) {
+//   alert("It's an Uppercase Letter");
+// } else if (charCode >= 97 && charCode <= 122) {
+//   alert("It's a Lowercase Letter");
+// } else {
+//   alert("Invalid Input");
+// }
+
 // Question No-2
+
+// var userInput1 = prompt("Enter a first integers");
+// var userInput2 = prompt("Enter a sencond integers");
+
+// if (userInput1 > userInput2) {
+//   alert(userInput1 + " Larger-then " + userInput2);
+// } else if (userInput1 === userInput2) {
+//   alert(userInput1 + " Equal to " + userInput2);
+// } else {
+//   alert(userInput2 + " Larger-than " + userInput1);
+// }
 
 // Question No-3
 
@@ -311,14 +342,22 @@
 //   alert("The number is negative");
 // }
 
-// Question No-4 need to b check
+// Question No-4
 
 // var user = prompt("Give a value");
 
-// var vowel =  ;
-
-// if (user.length === 1 && user === vowel) {
-//   alert(user + " The character is a vowel");
+// if (user.length === 1) {
+//   if (
+//     user === "a" ||
+//     user === "e" ||
+//     user === "i" ||
+//     user === "o" ||
+//     user === "u"
+//   ) {
+//     alert(user + " The character is a vowels");
+//   } else {
+//     alert("This character not a vowels.");
+//   }
 // } else {
 //   alert("Negative please enter a single alphabetic character.");
 // }
