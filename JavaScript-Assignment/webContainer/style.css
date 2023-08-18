@@ -9,7 +9,7 @@
 nav,
 main {
   width: 100%;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 .nav-container,
 .container {
@@ -19,7 +19,7 @@ main {
 .logo {
   height: 80px;
   padding: 15px;
-  background-color: aqua;
+  background-color: #00A36C;
 }
 .logo > a {
   font-size: 2.5em;
@@ -47,7 +47,7 @@ main {
   border-radius: 5px;
 }
 .container {
-  padding: 25px;
+  /* padding: 25px; */
 }
 .heading {
   height: 50px;
@@ -55,4 +55,25 @@ main {
   font-size: 3em;
   align-items: center;
   font-weight: 600;
+}
+
+.qa-container > p {
+  line-height: 1.8em;
+  border: 1px solid #000;
+  margin: 5px 0;
+  font-size: 2em;
+  padding: 25px;
+}
+
+.question > span {
+  color: #ff0000;
+  font-weight: 600;
+}
+.answer > span {
+  color: #228b22;
+  font-weight: 600;
+}
+
+.answer{
+  color: #228b22;
 }
