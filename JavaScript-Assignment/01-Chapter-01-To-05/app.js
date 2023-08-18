@@ -23,6 +23,12 @@
 
 // console.log("Hello... i can run JS through my web browser's console")
 
+// Question No 07
+
+// <body>
+// <script src="app.js"></script>
+// </body>;
+
 //                           <<<<<<<<<<<<<<<<<< Chapter No 02 >>>>>>>>>>>>>>>>>>
 
 // Question No 01

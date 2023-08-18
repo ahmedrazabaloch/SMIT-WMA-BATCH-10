@@ -46,3 +46,13 @@ main {
   padding: 10px;
   border-radius: 5px;
 }
+.container {
+  padding: 25px;
+}
+.heading {
+  height: 50px;
+  text-align: center;
+  font-size: 3em;
+  align-items: center;
+  font-weight: 600;
+}
