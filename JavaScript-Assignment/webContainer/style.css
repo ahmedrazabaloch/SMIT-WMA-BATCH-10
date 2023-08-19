@@ -9,23 +9,34 @@
 nav,
 main {
   width: 100%;
-  /* background-color: antiquewhite; */
 }
 .nav-container,
 .container {
   width: 1320px;
   margin: 0 auto;
 }
+.nav-container {
+  background-color: darkgrey;
+  padding: 25px;
+}
 .logo {
   height: 80px;
   padding: 15px;
-  background-color: #00A36C;
 }
 .logo > a {
   font-size: 2.5em;
   text-decoration: none;
   font-family: "Courgette";
   margin-top: auto;
+  color: #000;
+}
+
+.logo span {
+  font-family: "Courgette";
+  color: #f7df1e;
+}
+.hr {
+  border: 1px solid #fafafa;
 }
 /* .nav-box{
     display: flex;
@@ -38,13 +49,13 @@ main {
   font-size: 1.5em;
   justify-content: space-between;
   padding: 40px 0px;
-  background-color: aliceblue;
 }
 .chapters > a {
   text-decoration: none;
   border: 1px solid #000;
   padding: 10px;
   border-radius: 5px;
+  color: #000;
 }
 .container {
   /* padding: 25px; */
@@ -55,6 +66,7 @@ main {
   font-size: 3em;
   align-items: center;
   font-weight: 600;
+  margin: 30px 0;
 }
 
 .qa-container > p {
@@ -74,6 +86,6 @@ main {
   font-weight: 600;
 }
 
-.answer{
+.answer {
   color: #228b22;
 }
