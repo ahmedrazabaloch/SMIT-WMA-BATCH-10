@@ -42,9 +42,41 @@
 
 //Questin No-08
 
+// var students = ["Ahmed", "Raza", "Salman"];
+// var score = [320, 230, 480];
+// var totalMarks = 500;
 
+// document.write(
+//   "Score of " +
+//     students[0] +
+//     " is " +
+//     score[0] +
+//     ". Percentage: " +
+//     (score[0] / 500) * 100 +
+//     "%"
+// );
+// document.write(
+//   "<br/> Score of " +
+//     students[1] +
+//     " is " +
+//     score[1] +
+//     ". Percentage: " +
+//     (score[1] / 500) * 100 +
+//     "%"
+// );
+// document.write(
+//   "<br/>Score of " +
+//     students[2] +
+//     " is " +
+//     score[2] +
+//     ". Percentage: " +
+//     (score[2] / 500) * 100 +
+//     "%"
+// );
 
 //Questin No-09
+
+
 
 //Questin No-10
 
