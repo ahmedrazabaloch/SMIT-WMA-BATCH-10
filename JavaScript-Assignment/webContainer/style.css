@@ -45,9 +45,9 @@ main {
 .chapters {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 15px 32px;
   font-size: 1.5em;
-  justify-content: space-between;
+  justify-content: center;
   padding: 40px 0px;
 }
 .chapters > a {
