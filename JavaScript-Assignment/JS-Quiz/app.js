@@ -35,20 +35,51 @@
 
 // Max & Min Number
 
-var number = [4, 8, 16, 40, 12, 3, 5];
+// var number = [4, 8, 16, 40, 12, 3, 5];
 
-var max = number[0];
+// var max = number[0];
 
-var min = number[0];
+// var min = number[0];
 
-for (let i = 0; i < number.length; i++) {
-  if (number[i] > max) {
-    max = number[i];
-  }
+// for (let i = 0; i < number.length; i++) {
+//   if (number[i] > max) {
+//     max = number[i];
+//   }
 
-  if (number[i] < min) {
-    min = number[i];
-  }
-}
-console.log("Maximum Number = " + max);
-console.log("Minimum Number = " + min);
+//   if (number[i] < min) {
+//     min = number[i];
+//   }
+// }
+// console.log("Maximum Number = " + max);
+// console.log("Minimum Number = " + min);
+
+// Swting Name & update array
+
+
+var arr = ["ghous", "ahmed", "zain"];
+
+arr[2] = [arr[0],arr[2]]
+
+console.log(arr)
+
+
+
+
+
+
+
+
+
+
+
+// update = text.slice(21,24);
+
+// var text =
+//   "IHC reserves verdict on Imrans plea challenging Toshakhana conviction";
+
+// var firstChar = text.slice(21,7);
+// if (firstChar !== -1) {
+//   text = text.slice(21, firstChar) + "Nawaz " + text.slice(firstChar + 0);
+// }
+
+// console.log(text);
