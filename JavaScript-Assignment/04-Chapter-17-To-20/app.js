@@ -2,7 +2,7 @@
 
 //                                                                      Question No 01
 
-// var arr=[,[],]
+// var arr=[[],[],[]]
 
 // console.log(arr)
 
@@ -25,16 +25,14 @@
 
 //                                                                      Question No 04
 
-// var table = [+prompt("Enter a number to show its multiplication table")];
-// var tableLenght = [+prompt("Enter a length multiplication table")];
-
-// tableLenght = 10;
+// var table = +prompt("Enter a number to show its multiplication table");
+// var tableLenght = +prompt("Enter a length multiplication table");
 
 // document.write(
 //   "Multipalication table of " + table + " lenght " + tableLenght + "<br/>"
 // );
 
-// for (var i = 1; i <= 10; i++) {
+// for (var i = 1; i <= tableLenght; i++) {
 //   var multi = i * table;
 
 //   console.log(table + " x " + i + " = " + multi);
@@ -92,26 +90,54 @@
 
 //                                                                      Question No 07
 
-var user = prompt("Welcome To Chaman Bakery! What do you want to order");
-var item = ["cake", "apple pie", "coockie", "chips", "patties"];
-var check = "";
-var count = [0];
+// var user = prompt("Welcome To Chaman Bakery! What do you want to order");
+// var item = ["cake", "apple pie", "coockie", "chips", "patties"];
+// var flag = true;
 
-for (var i = 0; i < item.length; i++) {
-  count;
-  if (user == item[i]) {
-    console.log(user + " is availabe at index " + count++ + " in our bakery");
-  }
-  
-}
-console.log("check")
-
-// if (check === item[i]) {
-//   console.log(check + " is availabe at index " + "in our bakery");
-// } else {
-//   console.log(check + " is not available in our bakery");
+// for (var i = 0; i < item.length; i++) {
+//   if (user == item[i]) {
+//     console.log(user + " is availabe at index " + [i] + " in our bakery");
+//     flag = false;
+//     break;
+//   }
+// }
+// if (flag) {
+//   console.log("We are sorry " + user + " is not availbe in our bakery");
 // }
 
-// console.log(item);
-
 //                                                                      Question No 08
+
+// var num = [24, 53, 78, 91, 12];
+// var large = num[0];
+
+// for (var i = 0; i < num.length; i++) {
+//   if (num[i] > large) {
+//     large = num[i];
+//   }
+// }
+
+// document.write("Array item " + num);
+// document.write("<br/>The largest num is " + large);
+
+//                                                                      Question No 09
+
+// var num = [24, 53, 78, 91, 12];
+// var small = num[0];
+
+// for (var i = 0; i < num.length; i++) {
+//   if (num[i] < small) {
+//     small = num[i];
+//   }
+// }
+
+// document.write("Array item " + num);
+// document.write("<br/>The smallest num is " + small);
+
+//                                                                      Question No 10
+
+// var num = 5;
+
+// for (var i = 1; i <20; i++) {
+//   var multi = i * num;
+//   console.log(multi);
+// }

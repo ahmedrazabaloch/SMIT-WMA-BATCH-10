@@ -55,22 +55,11 @@
 
 // Swting Name & update array
 
+// var arr = ["ghous", "ahmed", "zain"];
 
-var arr = ["ghous", "ahmed", "zain"];
+// arr[2] = [arr[0],arr[2]]
 
-arr[2] = [arr[0],arr[2]]
-
-console.log(arr)
-
-
-
-
-
-
-
-
-
-
+// console.log(arr)
 
 // update = text.slice(21,24);
 
@@ -83,3 +72,29 @@ console.log(arr)
 // }
 
 // console.log(text);
+
+// Methods
+
+// .push()  & unshift return the orignal value with update
+
+// .push() add the value in last
+
+// var arr = ["salman", "ali"];
+
+// arr.push("ahmed");
+// console.log(arr);
+
+// // unshift() add the value in first
+// var a = ["salman", "ali"];
+
+// a.unshift("ahmed");
+// console.log(a);
+
+
+var arr = ["salman", "ali"];
+
+arr.pop();
+console.log(arr);
+
+
+
