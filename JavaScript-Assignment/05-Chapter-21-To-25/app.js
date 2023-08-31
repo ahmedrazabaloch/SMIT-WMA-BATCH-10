@@ -86,6 +86,22 @@
 
 //                                                          Question No- 13
 
+// var userName = prompt("Please enter your name");
+// var specialCharacters = ["@", ",", ".", "!"];
+// var flag = true;
+
+// for (var i = 0; i < specialCharacters.length; i++) {
+//   if (userName.includes(specialCharacters[i])) {
+//     alert("Please enter a username without special characters.");
+//     flag = false;
+//     break;
+//   }
+// }
+
+// if (flag) {
+//   alert(userName + " Welcome Sir/Ma'am");
+// }
+
 //                                                          Question No- 14
 
 // var userInput = prompt(
@@ -108,10 +124,60 @@
 //   document.write("We are sorry " + userInput + " is not availbe in our bakery");
 // }
 
-//                                                          Question No- 15
+//                                                          Question No- 15 review this code
+
+// var userInput = prompt("Enter a password");
+// var flag = true;
+
+// if (userInput.length < 6) {
+//   alert("Password must be at least 6 characters long.");
+//   flag = false;
+// } else {
+//   if (userInput.charAt(0) >= "0" && userInput.charAt(0) <= "9") {
+//     alert("Password should not start with a number.");
+//     flag = false;
+//   }
+
+//   var hasAlphabet = false;
+//   var hasNumber = false;
+
+//   for (var i = 0; i < userInput.length; i++) {
+//     var charCode = userInput.charCodeAt(i);
+//     if (
+//       (charCode >= 65 && charCode <= 90) ||
+//       (charCode >= 97 && charCode <= 122)
+//     ) {
+//       hasAlphabet = true;
+//     } else if (charCode >= 48 && charCode <= 57) {
+//       hasNumber = true;
+//     }
+//   }
+
+//   if (!hasAlphabet || !hasNumber) {
+//     alert("Password must contain both alphabets and numbers.");
+//     flag = false;
+//   }
+// }
+
+// if (flag) {
+//   alert("Password matches criteria. 👍");
+// }
 
 //                                                          Question No- 16
 
-//                                                          Question No- 17
+// var university = "University of Karachi";
+
+// for(var i=0; i<university.length; i++){
+//     university.split()
+//     console.log(university[i])
+// }
+
+//                                                          Question No- 17 incomplete
+
+// var userInput = prompt("Enter a letter");
+
+// document.write("User Input: " + userInput);  
+// document.write("<br/>Last character of input:  " + userInput);
+
 
 //                                                          Question No- 18
