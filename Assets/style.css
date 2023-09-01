@@ -284,9 +284,8 @@ a {
   .left {
     width: 100%;
   }
-  .right{
+  .right {
     margin: 50px 0;
-    
   }
 }
 @media only screen and (max-width: 425px) {
@@ -352,4 +351,7 @@ hr {
   .head-box {
     padding-top: 80px;
   }
+}
+.right > a {
+  color: inherit;
 }
