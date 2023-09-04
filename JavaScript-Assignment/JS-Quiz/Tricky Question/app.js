@@ -90,11 +90,29 @@
 // a.unshift("ahmed");
 // console.log(a);
 
+// var arr = ["salman", "ali"];
 
-var arr = ["salman", "ali"];
+// arr.pop();
+// console.log(arr);
 
-arr.pop();
-console.log(arr);
+//>>>>>>>>>>>>>>> Ramdom Password generator <<<<<<<<<<<<<<<<<
 
+// var num = [Math.floor(Math.random() * 100 * 100)];
+// var word = ["abc", "ABC"];
+// var symbol = ["@", "$"];
 
+// if (num > 5000) {
+//   var pass = num + symbol[0] + word[1];
+//   document.write(pass);
+// } else if (num < 5000) {
+//   var pass = word[0] + symbol[1] + num;
+//   document.write(pass);
+// }
 
+// var paas = "abcDEH@#$";
+// var generatePass = "";
+// for (i = 0; i < paas.length; i++) {
+//   var pass = paas[Math.floor(Math.random() * paas.length)];
+//   generatePass += pass;
+// }
+// document.write(generatePass);
