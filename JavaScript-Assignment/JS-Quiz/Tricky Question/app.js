@@ -95,66 +95,60 @@
 // arr.pop();
 // console.log(arr);
 
-//>>>>>>>>>>>>>>> Ramdom Password generator <<<<<<<<<<<<<<<<<
+//                                               >>>>>>>>>>>>>>> Ramdom Password generator <<<<<<<<<<<<<<<<<
 
-// var num = [Math.floor(Math.random() * 100 * 100)];
-// var word = ["abc", "ABC"];
-// var symbol = ["@", "$"];
-
-// if (num > 5000) {
-//   var pass = num + symbol[0] + word[1];
-//   document.write(pass);
-// } else if (num < 5000) {
-//   var pass = word[0] + symbol[1] + num;
-//   document.write(pass);
-// }
-
-// var paas = "abcDEH@#$";
+// var paas = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+";
 // var generatePass = "";
-// for (i = 0; i < paas.length; i++) {
+// for (i = 0; i < 12; i++) {
 //   var pass = paas[Math.floor(Math.random() * paas.length)];
 //   generatePass += pass;
 // }
 // document.write(generatePass);
 
+var password = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+";
+var generatePass = "";
+for (i = 0; i < 12; i++) {
+  var pass = password[Math.floor(Math.random() * password.length)];
+  generatePass += pass;
+  console.log(generatePass[0]);
+}
+document.write(generatePass);
+
 //                                            >>>>>>>>>>>>>>> Birth Days Calculator <<<<<<<<<<<<<<<<<<
 
-var userName=prompt("Please enter your name");
+// var userName=prompt("Please enter your name");
 
-var dob = new Date(prompt("Enter your date Bith like this","Mar-23-1995"));
+// var dob = new Date(prompt("Enter your date Bith like this","Mar-23-1995"));
 
-var currentDate = new Date();
+// var currentDate = new Date();
 
-var newDates = currentDate - dob;
+// var newDates = currentDate - dob;
 
-var days = newDates / 86400000;
+// var days = newDates / 86400000;
 
-var hours = days * 24;
+// var hours = days * 24;
 
-var month = Math.floor(days) / 30.417;
+// var month = Math.floor(days) / 30.417;
 
-var minutes = newDates / 60;
+// var minutes = newDates / 60;
 
-var years= month / 12
+// var years= month / 12
 
-
-document.write(userName + " Now you are  " + years.toFixed(1) + "old");
-document.write("<br/>");
-document.write("<br/>Date of Birth: => " + "    " + dob);
-document.write("<br/>");
-document.write("<br/> Current Date: => " + "    " + currentDate);
-document.write("<br/>");
-document.write("<br/> Total Month: => " + "    " + month.toFixed(1));
-document.write("<br/>");
-document.write("<br/> Total Days: => " + "    " + days.toFixed(1));
-document.write("<br/>");
-document.write("<br/> Total Hours: => " + "    " + hours.toFixed(2));
-document.write("<br/>");
-document.write("<br/> Total Minutes: => " + "    " + Math.round(minutes));
-
+// document.write(userName + " Now you are  " + years.toFixed(1) + "old");
+// document.write("<br/>");
+// document.write("<br/>Date of Birth: => " + "    " + dob);
+// document.write("<br/>");
+// document.write("<br/> Current Date: => " + "    " + currentDate);
+// document.write("<br/>");
+// document.write("<br/> Total Month: => " + "    " + month.toFixed(1));
+// document.write("<br/>");
+// document.write("<br/> Total Days: => " + "    " + days.toFixed(1));
+// document.write("<br/>");
+// document.write("<br/> Total Hours: => " + "    " + hours.toFixed(2));
+// document.write("<br/>");
+// document.write("<br/> Total Minutes: => " + "    " + Math.round(minutes));
 
 //                                           >>>>>>>>>>>>>>> Birth Days Calculator <<<<<<<<<<<<<<<<<<
-
 
 // var ramdan = new Date("Mar 12 2024");
 
