@@ -116,3 +116,69 @@
 //   generatePass += pass;
 // }
 // document.write(generatePass);
+
+//                                            >>>>>>>>>>>>>>> Birth Days Calculator <<<<<<<<<<<<<<<<<<
+
+var userName=prompt("Please enter your name");
+
+var dob = new Date(prompt("Enter your date Bith like this","Mar-23-1995"));
+
+var currentDate = new Date();
+
+var newDates = currentDate - dob;
+
+var days = newDates / 86400000;
+
+var hours = days * 24;
+
+var month = Math.floor(days) / 30.417;
+
+var minutes = newDates / 60;
+
+var years= month / 12
+
+
+document.write(userName + " Now you are  " + years.toFixed(1) + "old");
+document.write("<br/>");
+document.write("<br/>Date of Birth: => " + "    " + dob);
+document.write("<br/>");
+document.write("<br/> Current Date: => " + "    " + currentDate);
+document.write("<br/>");
+document.write("<br/> Total Month: => " + "    " + month.toFixed(1));
+document.write("<br/>");
+document.write("<br/> Total Days: => " + "    " + days.toFixed(1));
+document.write("<br/>");
+document.write("<br/> Total Hours: => " + "    " + hours.toFixed(2));
+document.write("<br/>");
+document.write("<br/> Total Minutes: => " + "    " + Math.round(minutes));
+
+
+//                                           >>>>>>>>>>>>>>> Birth Days Calculator <<<<<<<<<<<<<<<<<<
+
+
+// var ramdan = new Date("Mar 12 2024");
+
+// var currentDate = new Date();
+
+// var newDates = ramdan - currentDate;
+
+// var days = newDates / 86400000;
+
+// var hours = days * 24;
+
+// var month = Math.floor(days) / 30.417;
+
+// var minutes = newDates / 60;
+
+// document.write("<h1>How Many Days left Ramadan 2024</h1>");
+// document.write("<br/>Ramadan: => " + "    " + ramdan);
+// document.write("<br/>");
+// document.write("<br/> Current Date: => " + "    " + currentDate);
+// document.write("<br/>");
+// document.write("<br/> Month left: => " + "    " + month.toFixed(1));
+// document.write("<br/>");
+// document.write("<br/> Days left: => " + "    " + days.toFixed(1));
+// document.write("<br/>");
+// document.write("<br/> Hours left: => " + "    " + hours.toFixed(2));
+// document.write("<br/>");
+// document.write("<br/> Minutes left: => " + "    " + Math.round(minutes));
