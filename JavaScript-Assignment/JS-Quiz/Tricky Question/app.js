@@ -152,17 +152,17 @@ document.write(generatePass);
 
 // var ramdan = new Date("Mar 12 2024");
 
-// var currentDate = new Date();
+var currentDate = new Date();
 
-// var newDates = ramdan - currentDate;
+var newDates = ramdan - currentDate;
 
-// var days = newDates / 86400000;
+var days = newDates / 86400000;
 
-// var hours = days * 24;
+var hours = days * 24;
 
-// var month = Math.floor(days) / 30.417;
+var month = Math.floor(days) / 30.417;
 
-// var minutes = newDates / 60;
+var minutes = newDates / 60;
 
 // document.write("<h1>How Many Days left Ramadan 2024</h1>");
 // document.write("<br/>Ramadan: => " + "    " + ramdan);
