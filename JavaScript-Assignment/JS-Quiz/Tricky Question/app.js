@@ -232,31 +232,57 @@
 
 //                                                   >>>>>>>>>>>>>>> Birth Days Calculator <<<<<<<<<<<<<<<<<<
 
-var ramdan = new Date("Mar 12 2024");
+// var ramdan = new Date("Mar 12 2024");
 
-var currentDate = new Date();
+// var currentDate = new Date();
 
-var milliSeconds = ramdan - currentDate;
+// var milliSeconds = ramdan - currentDate;
 
-var days = milliSeconds / 86400000;
+// var days = milliSeconds / 86400000;
 
-var hours = days * 24;
+// var hours = days * 24;
 
-var month = Math.floor(days) / 30.417;
+// var month = Math.floor(days) / 30.417;
 
-var minutes = milliSeconds / 60;
+// var minutes = milliSeconds / 60;
 
-console.log(days);
+// console.log(days);
 
-document.write("<h1>How Many Days left Ramadan 2024</h1>");
-document.write("<br/>Ramadan: => " + " " + ramdan);
-document.write("<br/>");
-document.write("<br/> Current Date: => " + " " + currentDate);
-document.write("<br/>");
-document.write("<br/> Month left: => " + " " + month.toFixed(1));
-document.write("<br/>");
-document.write("<br/> Days left: => " + " " + days.toFixed(1));
-document.write("<br/>");
-document.write("<br/> Hours left: => " + " " + hours.toFixed(2));
-document.write("<br/>");
-document.write("<br/> Minutes left: => " + " " + Math.round(minutes));
+// document.write("<h1>How Many Days left Ramadan 2024</h1>");
+// document.write("<br/>Ramadan: => " + " " + ramdan);
+// document.write("<br/>");
+// document.write("<br/> Current Date: => " + " " + currentDate);
+// document.write("<br/>");
+// document.write("<br/> Month left: => " + " " + month.toFixed(1));
+// document.write("<br/>");
+// document.write("<br/> Days left: => " + " " + days.toFixed(1));
+// document.write("<br/>");
+// document.write("<br/> Hours left: => " + " " + hours.toFixed(2));
+// document.write("<br/>");
+// document.write("<br/> Minutes left: => " + " " + Math.round(minutes));
+
+//                                                    >>>>>>>>>>>>>>>>>> Another birth days counter <<<<<<<<<<<<<<<<<
+
+// var dateOfBirth = new Date(prompt("Enter your birth date", "Mar 23 1995"));
+
+// var currentDate = new Date();
+
+// var milliseconds = currentDate.getTime() - dateOfBirth.getTime();
+
+// var minutes = milliseconds / 60;
+
+// var days = milliseconds / 86400000;
+
+// var hours = days * 24;
+
+// var month = Math.floor(days) / 30.417;
+
+// var years = currentDate.getFullYear() - dateOfBirth.getFullYear();
+
+// console.log(
+//   years + " years",
+//   month + " month",
+//   days + " days",
+//   hours + " hours",
+//   minutes + " minutes"
+// );
