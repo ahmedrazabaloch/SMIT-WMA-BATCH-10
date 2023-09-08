@@ -128,8 +128,70 @@
 //   "<br/>" + Math.round(seconds) + " seconds had passed since beginning of 2023"
 // );
 
-
 // Question No=11
+
+// var currentDate = new Date();
+
+// var afterhours = currentDate.getHours();
+
+// currentDate.setHours(afterhours - 1);
+
+// document.write("Current Date: " + new Date());
+// document.write("<br/>1 hour ago, it was " + currentDate);
+
 // Question No=12
+
+// var currentDate = new Date();
+
+// var bc = currentDate.getFullYear()
+// currentDate.setFullYear(bc - 100)
+
+// document.write("Current Date: " + new Date());
+// document.write("<br/>100 years back, it was " + currentDate);
+
 // Question No=13
+
+// var dob = new Date(prompt("Enter your birth year","1995")).getFullYear();
+
+// var currentDate = new Date().getFullYear();
+
+// var minus = currentDate - dob;
+
+// document.write("Your age is " + minus);
+// document.write("<br/>Your birth year is " + dob);
+
 // Question No=14
+
+// var monthName = [
+//   "January ",
+//   "February ",
+//   "March ",
+//   "April ",
+//   "May ",
+//   "June ",
+//   "July ",
+//   "August ",
+//   "September",
+//   "October",
+//   "November",
+//   "December",
+// ];
+
+// var customerName = "Ahmedraza";
+// var month = monthName[new Date().getMonth()];
+// var noOfUnit = 410;
+// var chargPerUnit = 16;
+
+// var netAmount = noOfUnit * chargPerUnit;
+// var latePay = 350;
+// var grossAmount = netAmount + latePay;
+
+// document.write("<h1>K-Electric Bill</h1>");
+// document.write("<br/> Customer Name: " + customerName);
+// document.write("<br/> Month: " + month);
+// document.write("<br/> Number of units: " + noOfUnit);
+// document.write("<br/> Charges per unit: " + chargPerUnit);
+// document.write("<br/> ");
+// document.write("<br/> Net Amount Payable (within Due Date): " + netAmount);
+// document.write("<br/> Late payment surcharges: " + latePay);
+// document.write("<br/> Gross Amount Payable (after Due Date: " + grossAmount);
