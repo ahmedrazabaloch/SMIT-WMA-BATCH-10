@@ -72,13 +72,11 @@
 
 // document.write("random number between 1 and 100: " + random);
 
-// Question No 07 need to be check
+// Question No 07
 
-// var userInput = prompt("Enter your weight", "84.62");
+// var userInput = +prompt("Enter your weight in kilogram");
 
-// var kgs = userInput;
-
-// document.write("The weight of user is " + kgs + " kilograms");
+// console.log("Your weight is " + userInput + " kg");
 
 // Question No 08
 

@@ -105,14 +105,13 @@
 // }
 // document.write(generatePass);
 
-var password = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+";
-var generatePass = "";
-for (i = 0; i < 12; i++) {
-  var pass = password[Math.floor(Math.random() * password.length)];
-  generatePass += pass;
-  console.log(generatePass[0]);
-}
-document.write(generatePass);
+// var password = ["ABCD", "abcd", "!@#$"];
+// var generatePass = "";
+// for (i = 0; i < password.length; i++) {
+//   var pass = password[Math.floor(Math.random() * password.length)];
+//   generatePass += pass;
+// }
+// document.write(generatePass);
 
 //                                            >>>>>>>>>>>>>>> Birth Days Calculator <<<<<<<<<<<<<<<<<<
 
@@ -150,29 +149,31 @@ document.write(generatePass);
 
 //                                           >>>>>>>>>>>>>>> Birth Days Calculator <<<<<<<<<<<<<<<<<<
 
-// var ramdan = new Date("Mar 12 2024");
+var ramdan = new Date("Mar 12 2024");
 
 var currentDate = new Date();
 
-var newDates = ramdan - currentDate;
+var milliSeconds = ramdan - currentDate;
 
-var days = newDates / 86400000;
+var days = milliSeconds / 86400000;
 
 var hours = days * 24;
 
 var month = Math.floor(days) / 30.417;
 
-var minutes = newDates / 60;
+var minutes = milliSeconds / 60;
 
-// document.write("<h1>How Many Days left Ramadan 2024</h1>");
-// document.write("<br/>Ramadan: => " + "    " + ramdan);
-// document.write("<br/>");
-// document.write("<br/> Current Date: => " + "    " + currentDate);
-// document.write("<br/>");
-// document.write("<br/> Month left: => " + "    " + month.toFixed(1));
-// document.write("<br/>");
-// document.write("<br/> Days left: => " + "    " + days.toFixed(1));
-// document.write("<br/>");
-// document.write("<br/> Hours left: => " + "    " + hours.toFixed(2));
-// document.write("<br/>");
-// document.write("<br/> Minutes left: => " + "    " + Math.round(minutes));
+console.log(days)
+
+document.write("<h1>How Many Days left Ramadan 2024</h1>");
+document.write("<br/>Ramadan: => " + "    " + ramdan);
+document.write("<br/>");
+document.write("<br/> Current Date: => " + "    " + currentDate);
+document.write("<br/>");
+document.write("<br/> Month left: => " + "    " + month.toFixed(1));
+document.write("<br/>");
+document.write("<br/> Days left: => " + "    " + days.toFixed(1));
+document.write("<br/>");
+document.write("<br/> Hours left: => " + "    " + hours.toFixed(2));
+document.write("<br/>");
+document.write("<br/> Minutes left: => " + "    " + Math.round(minutes));
