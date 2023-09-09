@@ -286,3 +286,27 @@
 //   hours + " hours",
 //   minutes + " minutes"
 // );
+
+//> var dateOfBirth = new Date("03-23-1995");
+
+//> var userDateday = new Date(23).getDay();
+//> var userDateMonth = new Date("mar").getMonth();
+//> var userDateyear = new Date("1995").getFullYear();
+
+//> var currentDate = new Date();
+
+//> var years = currentDate.getFullYear() - dateOfBirth.getFullYear();
+
+//> var milliseconds = currentDate.getTime() - dateOfBirth.getTime();
+
+//> var minutes = milliseconds / 60;
+
+//> var days = milliseconds / 86400000;
+
+//> var hours = days * 24;
+
+//> var month = Math.floor(days) / 30.417;
+
+//> console.log(userDateday);
+//> console.log(userDateMonth);
+//> console.log(userDateyear);
