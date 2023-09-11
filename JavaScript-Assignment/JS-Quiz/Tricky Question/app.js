@@ -310,3 +310,21 @@
 //> console.log(userDateday);
 //> console.log(userDateMonth);
 //> console.log(userDateyear);
+
+//                                                   >>>>>>>>>>>>>>>>>>>>> factoring multipacations <<<<<<<<<<<<<<<<<<
+
+// function myFuncations(factoring) {
+//   var value = 1;
+
+//   for (var i = factoring; i > 0; i--) {
+//     value = i * value;
+//   }
+//   return value;
+// }
+
+// console.log(myFuncations(4));
+
+
+//                                               >>>>>>>>>>>>>>>>>> Removed dublicate value from array <<<<<<<<<<<<<<<<<<
+
+
