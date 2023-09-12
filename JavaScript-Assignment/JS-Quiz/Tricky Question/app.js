@@ -324,7 +324,32 @@
 
 // console.log(myFuncations(4));
 
-
 //                                               >>>>>>>>>>>>>>>>>> Removed dublicate value from array <<<<<<<<<<<<<<<<<<
 
+//                                                                               not working
 
+var arr = [
+  "apple",
+  "banana",
+  "mango",
+  "apple",
+  "pineapple",
+  "watermelon",
+  "mango",
+];
+
+var current = arr[0];
+var found = false;
+function removeDuplicate() {
+  for (var i = 0; i < arr.length; i++) {
+    if (current == arr[i]) {
+      found = false;
+    } else if (current != arr[i]) {
+      console.log(" " + current);
+      current = arr[i];
+      found = false;
+    }
+  }
+  console.log(" " + current);
+}
+removeDuplicate();
