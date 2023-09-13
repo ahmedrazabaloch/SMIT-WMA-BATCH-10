@@ -32,18 +32,28 @@
 
 //                                              >>>>>>>>>>>>>>>>> Question No=04 <<<<<<<<<<<<<<<<< Opration not working need to be check
 
-// function value(num1, sing, num2) {
-//   var calc = num1 + sing + num2;
-//   return calc;
-// }
+var userInput1 = +prompt("Enter num 1");
+var userInput2 = +prompt("Enter num 2");
 
-// console.log(
-//   value(
-//     parseInt(prompt("Please enter a value")),
-//     prompt("Enter a opration"),
-//     parseInt(prompt("Enter a second Value"))
-//   )
-// );
+var userValue = prompt("Enter the value e.g -,+,x,/");
+
+function cal(userInput1, userInput2, userValue) {
+  if (userValue === "-") {
+    return userInput1 - userInput2;
+  } else if (userValue === "+") {
+    return userInput1 + userInput2;
+  } else if (userValue === "x") {
+    return userInput1 * userInput2;
+  } else if (userValue === "/") {
+    return userInput1 / userInput2;
+  } else {
+    return "Enter a valid value";
+  }
+}
+
+var result = cal(userInput1, userInput2, userValue);
+
+console.log("The result is :" + result);
 
 //                                              >>>>>>>>>>>>>>>>> Question No=05 <<<<<<<<<<<<<<<<< pending
 
