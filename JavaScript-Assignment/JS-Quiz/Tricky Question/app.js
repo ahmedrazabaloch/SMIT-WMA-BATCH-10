@@ -326,8 +326,6 @@
 
 //                                               >>>>>>>>>>>>>>>>>> Removed dublicate value from array <<<<<<<<<<<<<<<<<<
 
-//                                                                               not working
-
 var arr = [
   "apple",
   "banana",
@@ -338,18 +336,28 @@ var arr = [
   "mango",
 ];
 
-var current = arr[0];
-var found = false;
-function removeDuplicate() {
-  for (var i = 0; i < arr.length; i++) {
-    if (current == arr[i]) {
-      found = false;
-    } else if (current != arr[i]) {
-      console.log(" " + current);
-      current = arr[i];
-      found = false;
+for (var i = 0; i < arr.length; i++) {
+  for (var j = i + 1; j < arr.length; j++) {
+    if (arr[i] === arr[j]) {
+      arr.splice(i, 1);
     }
   }
-  console.log(" " + current);
 }
-removeDuplicate();
+console.log(arr);
+
+
+// var current = arr[0];
+// var found = false;
+// function removeDuplicate() {
+//   for (var i = 0; i < arr.length; i++) {
+//     if (current == arr[i]) {
+//       found = false;
+//     } else if (current != arr[i]) {
+//       console.log(" " + current);
+//       current = arr[i];
+//       found = false;
+//     }
+//   }
+//   console.log(" " + current);
+// }
+// removeDuplicate();
