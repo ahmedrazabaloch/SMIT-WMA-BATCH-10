@@ -326,38 +326,21 @@
 
 //                                               >>>>>>>>>>>>>>>>>> Removed dublicate value from array <<<<<<<<<<<<<<<<<<
 
-var arr = [
-  "apple",
-  "banana",
-  "mango",
-  "apple",
-  "pineapple",
-  "watermelon",
-  "mango",
-];
+// var arr = [
+//   "apple",
+//   "banana",
+//   "mango",
+//   "apple",
+//   "pineapple",
+//   "watermelon",
+//   "mango",
+// ];
 
-for (var i = 0; i < arr.length; i++) {
-  for (var j = i + 1; j < arr.length; j++) {
-    if (arr[i] === arr[j]) {
-      arr.splice(i, 1);
-    }
-  }
-}
-console.log(arr);
-
-
-// var current = arr[0];
-// var found = false;
-// function removeDuplicate() {
-//   for (var i = 0; i < arr.length; i++) {
-//     if (current == arr[i]) {
-//       found = false;
-//     } else if (current != arr[i]) {
-//       console.log(" " + current);
-//       current = arr[i];
-//       found = false;
+// for (var i = 0; i < arr.length; i++) {
+//   for (var j = i + 1; j < arr.length; j++) {
+//     if (arr[i] === arr[j]) {
+//       arr.splice(j, 1);
 //     }
 //   }
-//   console.log(" " + current);
 // }
-// removeDuplicate();
+// console.log(arr);
