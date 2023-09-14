@@ -8,8 +8,32 @@ function numbers(value) {
 }
 
 function operationSign(value) {
-  currentInput += value;
-  document.getElementById("screen").value = currentInput;
+  currentOperation = value;
+  previousInput = currentInput;
+  currentInput = "";
+  document.getElementById("screen").value =
+    previousInput + currentOperation + currentInput;
+}
+
+function sum() {
+  var result = 0;
+  var num1 = parseFloat(previousInput);
+  var num2 = parseFloat(currentInput);
+
+  if (currentOperation === "+") {
+    result = num1 + num2;
+  } else if (currentOperation === "-") {
+    result = num1 - num2;
+  } else if (currentOperation === "*") {
+    result = num1 * num2;
+  } else if (currentOperation === "/") {
+    result = num1 / num2;
+  }
+
+  document.getElementById("screen").value = result;
+  currentInput = result.toString();
+  previousInput = "";
+  currentOperation = "";
 }
 
 function clearScreen() {
@@ -17,11 +41,4 @@ function clearScreen() {
   currentOperation = "";
   previousInput = "";
   document.getElementById("screen").value = "";
-}
-
-function sum() {
-  if (currentInput === "+") {
-    var result = currentInput + currentInput;
-  }
-  document.getElementById("screen").value = result;
 }
