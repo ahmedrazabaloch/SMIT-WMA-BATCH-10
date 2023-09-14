@@ -8,36 +8,36 @@
   </head>
   <body>
     <div class="flexCenter">
-      <main class="container">
+      <form action="">
         <div class="screen">
-          <input type="number" value="" id="screen" />
+          <input type="number" value="" id="screen" name="screen" />
         </div>
         <div class="operations">
-          <button>+</button>
-          <button>-</button>
-          <button>x</button>
-          <button>&#247;</button>
+          <input type="button" value="+" onclick() />
+          <input type="button" value="-" onclick="result.value='-'" />
+          <input type="button" value="*" onclick="result.value='*'" />
+          <input type="button" value="÷" onclick="result.value='÷'" />
         </div>
         <div class="flex">
           <div class="numbers">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>0</button>
-            <button>.</button>
-            <button>C</button>
+            <input type="button" value="7" onclick="" />
+            <input type="button" value="8" onclick="" />
+            <input type="button" value="9" onclick="" />
+            <input type="button" value="4" onclick="" />
+            <input type="button" value="5" onclick="" />
+            <input type="button" value="6" onclick="" />
+            <input type="button" value="1" onclick="" />
+            <input type="button" value="2" onclick="" />
+            <input type="button" value="3" onclick="" />
+            <input type="button" value="0" onclick="" />
+            <input type="button" value="." onclick="" />
+            <input type="reset" value="c" onclick="" />
           </div>
           <div class="sum">
-            <button>=</button>
+            <input type="button" value="=" />
           </div>
         </div>
-      </main>
+      </form>
     </div>
 
     <script src="app.js"></script>
