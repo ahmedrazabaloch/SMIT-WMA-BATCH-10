@@ -23,7 +23,7 @@
   border: none;
   color: #fff;
   font-size: 36px;
-  direction: rtl;
+  padding: 0 10px;
 }
 .operations {
   width: 100%;

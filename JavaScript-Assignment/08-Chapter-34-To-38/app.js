@@ -32,28 +32,28 @@
 
 //                                              >>>>>>>>>>>>>>>>> Question No=04 <<<<<<<<<<<<<<<<< Opration not working need to be check
 
-var userInput1 = +prompt("Enter num 1");
-var userInput2 = +prompt("Enter num 2");
+// var userInput1 = +prompt("Enter num 1");
+// var userInput2 = +prompt("Enter num 2");
 
-var userValue = prompt("Enter the value e.g -,+,x,/");
+// var userValue = prompt("Enter the value e.g -,+,x,/");
 
-function cal(userInput1, userInput2, userValue) {
-  if (userValue === "-") {
-    return userInput1 - userInput2;
-  } else if (userValue === "+") {
-    return userInput1 + userInput2;
-  } else if (userValue === "x") {
-    return userInput1 * userInput2;
-  } else if (userValue === "/") {
-    return userInput1 / userInput2;
-  } else {
-    return "Enter a valid value";
-  }
-}
+// function cal(userInput1, userInput2, userValue) {
+//   if (userValue === "-") {
+//     return userInput1 - userInput2;
+//   } else if (userValue === "+") {
+//     return userInput1 + userInput2;
+//   } else if (userValue === "x") {
+//     return userInput1 * userInput2;
+//   } else if (userValue === "/") {
+//     return userInput1 / userInput2;
+//   } else {
+//     return "Enter a valid value";
+//   }
+// }
 
-var result = cal(userInput1, userInput2, userValue);
+// var result = cal(userInput1, userInput2, userValue);
 
-console.log("The result is :" + result);
+// console.log("The result is :" + result);
 
 //                                              >>>>>>>>>>>>>>>>> Question No=05 <<<<<<<<<<<<<<<<< pending
 
