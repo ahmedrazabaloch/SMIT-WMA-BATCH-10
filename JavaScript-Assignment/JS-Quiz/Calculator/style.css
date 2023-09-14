@@ -3,20 +3,27 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  border: none;
+  font-size: 18px;
+  background-color: aliceblue;
 }
-
-.container {
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   width: 400px;
   height: 400px;
-  margin: 0 auto;
-  border-radius: 5px;
-  text-align: center;
-  border: none;
 }
+
 .screen > input {
   width: 100%;
   height: 80px;
   background-color: #252525;
+  border: none;
+  color: #fff;
+  font-size: 36px;
+  direction: rtl;
 }
 .operations {
   width: 100%;
@@ -26,24 +33,28 @@
   width: 25%;
   height: 60px;
   border: 1px solid #a2a0a0;
+  background-color: #f5f5f5;
 }
 .flex {
   display: flex;
   width: 100%;
 }
 .numbers {
-  width: 76%;
+  width: 75.5%;
   display: flex;
   flex-wrap: wrap;
 }
 .numbers > button {
-  width: 30%;
+  width: 33.33%;
   height: 60px;
+  border: 1px solid #a2a0a0;
+  background-color: #f8f8ff;
 }
 .sum {
-  width: 20%;
+  width: 25%;
 }
 .sum > button {
   width: 100%;
-  height: 60px;
+  height: 240px;
+  background-color: #f98b6b;
 }
