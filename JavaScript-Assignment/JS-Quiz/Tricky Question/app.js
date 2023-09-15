@@ -344,3 +344,32 @@
 //   }
 // }
 // console.log(arr);
+
+//                                                     >>>>>>>>>>>>>>>>> Correct the code <<<<<<<<<<<<<<<<<<<<
+
+// var str = "5+5-";
+
+// var newInput = "10";
+
+// var last = str[str.length - 1];
+
+// var arr = ["+", "-", "*", "/"];
+
+// if (arr.indexOf(last) !== -1 && arr.indexOf(newInput) !== -1) {
+//   str = str.slice(0, -1) + newInput;
+// } else {
+//   str += newInput;
+// }
+
+// console.log(str);
+
+//                                        >>>>>>>>>>>>>>>>>>>>>>>>> Anagrams Words <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// var user1 = prompt("Enter a first word");
+// var user2 = prompt("Enter a sencond word");
+
+// if (user1.split("").sort().join("") === user2.split("").sort().join("")) {
+//   alert(user1 + " " + user2 + " its a Anagram word");
+// } else {
+//   alert("Try again for Anagram word");
+// }
