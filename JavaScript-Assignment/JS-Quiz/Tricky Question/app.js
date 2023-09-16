@@ -373,3 +373,23 @@
 // } else {
 //   alert("Try again for Anagram word");
 // }
+//                                   >>>>>>>>>>>>>>>>>>>> fucntion for Anagrams Words <<<<<<<<<<<<<<<<<<<<<
+
+var first = "";
+var second = "";
+
+function anagram() {
+  var first = document.getElementById("first").value;
+  var second = document.getElementById("second").value;
+  if (first.split("").sort().join("") === second.split("").sort().join("")) {
+    document.getElementById("addToDisplay").value =
+      first + " " + second + " its a Anagram word";
+    document.getElementById("first").value = "";
+    document.getElementById("second").value = "";
+  } else {
+    document.getElementById("addToDisplay").value =
+      "Try again for Anagram word";
+    document.getElementById("first").value = "";
+    document.getElementById("second").value = "";
+  }
+}

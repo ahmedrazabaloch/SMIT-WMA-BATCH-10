@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>JS Quiz</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <!-- Anagram words -->
+    <div class="container">
+      <input type="text" value="" id="addToDisplay" disabled />
+      <br />
+      <input type="text" value="" id="first" />
+      <br />
+      <input type="text" value="" id="second" />
+      <br />
+      <button onclick="anagram()">Submit</button>
+    </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
