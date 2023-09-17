@@ -43,18 +43,18 @@ function clearScreen() {
   document.getElementById("screen").value = "";
 }
 
-// var str = "5+5-";
+var str = "5+5-";
 
-// var newInput = "10";
+var newInput = "*";
 
-// var last = str[str.length - 1];
+var last = str[str.length - 1];
 
-// var arr = ["+", "-", "*", "/"];
+var arr = ["+", "-", "*", "/"];
 
-// if (arr.indexOf(last) !== -1 && arr.indexOf(newInput) !== -1) {
-//   str = str.slice(0, -1) + newInput;
-// } else {
-//   str += newInput;
-// }
+if (arr.indexOf(last) !== -1 && arr.indexOf(newInput) !== -1) {
+  str = str.slice(0, -1) + newInput;
+} else {
+  str += newInput;
+}
 
-// console.log(str);
+console.log(str);
