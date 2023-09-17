@@ -2,23 +2,6 @@ var currentInput = "";
 var currentOperation = "";
 var previousInput = "";
 
-// var previousInput = "";
-
-// var currentInput = "";
-
-// var last = previousInput[previousInput.length - 1];
-
-// var currentOperation = ["+", "-", "*", "/"];
-
-// if (
-//   currentOperation.indexOf(last) !== -1 &&
-//   currentOperation.indexOf(newInput) !== -1
-// ) {
-//   previousInput = previousInput.slice(0, -1) + currentInput;
-// } else {
-//   previousInput += currentInput;
-// }
-
 
 function numbers(value) {
   currentInput += value;
