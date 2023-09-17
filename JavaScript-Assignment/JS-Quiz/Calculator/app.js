@@ -2,6 +2,24 @@ var currentInput = "";
 var currentOperation = "";
 var previousInput = "";
 
+// var previousInput = "";
+
+// var currentInput = "";
+
+// var last = previousInput[previousInput.length - 1];
+
+// var currentOperation = ["+", "-", "*", "/"];
+
+// if (
+//   currentOperation.indexOf(last) !== -1 &&
+//   currentOperation.indexOf(newInput) !== -1
+// ) {
+//   previousInput = previousInput.slice(0, -1) + currentInput;
+// } else {
+//   previousInput += currentInput;
+// }
+
+
 function numbers(value) {
   currentInput += value;
   document.getElementById("screen").value = currentInput;
@@ -42,19 +60,3 @@ function clearScreen() {
   previousInput = "";
   document.getElementById("screen").value = "";
 }
-
-var str = "5+5-";
-
-var newInput = "*";
-
-var last = str[str.length - 1];
-
-var arr = ["+", "-", "*", "/"];
-
-if (arr.indexOf(last) !== -1 && arr.indexOf(newInput) !== -1) {
-  str = str.slice(0, -1) + newInput;
-} else {
-  str += newInput;
-}
-
-console.log(str);
