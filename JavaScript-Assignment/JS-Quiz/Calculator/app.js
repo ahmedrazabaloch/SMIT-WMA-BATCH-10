@@ -2,7 +2,6 @@ var currentInput = "";
 var currentOperation = "";
 var previousInput = "";
 
-
 function numbers(value) {
   currentInput += value;
   document.getElementById("screen").value = currentInput;
@@ -11,9 +10,8 @@ function numbers(value) {
 function operationSign(value) {
   currentOperation = value;
   previousInput = currentInput;
+  document.getElementById("screen").value = previousInput + currentOperation;
   currentInput = "";
-  document.getElementById("screen").value =
-    previousInput + currentOperation + currentInput;
 }
 
 function sum() {
@@ -43,3 +41,4 @@ function clearScreen() {
   previousInput = "";
   document.getElementById("screen").value = "";
 }
+
