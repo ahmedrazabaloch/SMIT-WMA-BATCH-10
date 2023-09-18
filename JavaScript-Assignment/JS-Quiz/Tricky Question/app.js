@@ -379,17 +379,22 @@ var first = "";
 var second = "";
 
 function anagram() {
-  var first = document.getElementById("first").value;
-  var second = document.getElementById("second").value;
-  if (first.split("").sort().join("") === second.split("").sort().join("")) {
+  var first = document.getElementById("first").value.trim();
+  var second = document.getElementById("second").value.trim();
+
+  if (first === "" || second === "") {
     document.getElementById("addToDisplay").value =
-      first + " " + second + " its a Anagram word";
-    document.getElementById("first").value = "";
-    document.getElementById("second").value = "";
+      "Please enter valid words for checking anagram.";
+  } else if (
+    first.split("").sort().join("") === second.split("").sort().join("")
+  ) {
+    document.getElementById("addToDisplay").value =
+      first + " and " + second + " are Anagram words";
   } else {
     document.getElementById("addToDisplay").value =
-      "Try again for Anagram word";
-    document.getElementById("first").value = "";
-    document.getElementById("second").value = "";
+      "Try again for Anagram words";
   }
+
+  document.getElementById("first").value = "";
+  document.getElementById("second").value = "";
 }

@@ -1,10 +1,30 @@
-var currentInput = "";
 var currentOperation = "";
 var previousInput = "";
 
+// function numbers(value) {
+//   currentInput += value;
+//   document.getElementById("screen").value = currentInput;
+// }
+
+var currentInput = document.getElementById("screen");
+
 function numbers(value) {
-  currentInput += value;
-  document.getElementById("screen").value = currentInput;
+  var calculatorValue = currentInput.value;
+  var operatorSign = ["+", "-", "%", "/", "*"];
+  var last = calculatorValue[calculatorValue.length - 1];
+  var newInput = value;
+
+  if (
+    operatorSign.indexOf(last) !== -1 &&
+    operatorSign.indexOf(newInput) !== -1
+  ) {
+    calculatorValue = calculatorValue.slice(0, -1) + newInput;
+  } else {
+    calculatorValue += newInput;
+  }
+
+  currentInput.value = calculatorValue;
+  var currentInput = "";
 }
 
 function operationSign(value) {
@@ -41,4 +61,3 @@ function clearScreen() {
   previousInput = "";
   document.getElementById("screen").value = "";
 }
-
