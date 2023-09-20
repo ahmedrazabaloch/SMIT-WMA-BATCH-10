@@ -347,24 +347,24 @@
 
 //                                  >>>>>>>>>>>>>>>>>> Functions Removed duplicate value from array <<<<<<<<<<<<<<<<<<
 
-var userInput = [];
-function add() {
-  addvalue = document.getElementById("userInput");
-  addToDisplay = document.getElementById("addToDisplay");
-  addToDisplay.value = addvalue.value;
-  document.getElementById("userInput").value = "";
-  console.log(addToDisplay.value);
-}
+// var userInput = [];
+// function add() {
+//   addvalue = document.getElementById("userInput");
+//   addToDisplay = document.getElementById("addToDisplay");
+//   addToDisplay.value = addvalue.value;
+//   document.getElementById("userInput").value = "";
+//   console.log(addToDisplay.value);
+// }
 
-function removed() {
-  for (var i = 0; i < userInput.length; i++) {
-    for (var j = 0; j < userInput.length; j++) {
-      if (userInput[i] === userInput[j]) {
-        userInput.splice(j, 1);
-      }
-    }
-  }
-}
+// function removed() {
+//   for (var i = 0; i < userInput.length; i++) {
+//     for (var j = 0; j < userInput.length; j++) {
+//       if (userInput[i] === userInput[j]) {
+//         userInput.splice(j, 1);
+//       }
+//     }
+//   }
+// }
 
 //                                        >>>>>>>>>>>>>>>>>>>>>>>>> Anagrams Words <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -378,26 +378,26 @@ function removed() {
 // }
 //                                   >>>>>>>>>>>>>>>>>>>> fucntion for Anagrams Words <<<<<<<<<<<<<<<<<<<<<
 
-// var first = "";
-// var second = "";
+var first = "";
+var second = "";
 
-// function anagram() {
-//   var first = document.getElementById("first").value.trim();
-//   var second = document.getElementById("second").value.trim();
+function anagram() {
+  var first = document.getElementById("first").value.trim();
+  var second = document.getElementById("second").value.trim();
 
-//   if (first === "" || second === "") {
-//     document.getElementById("addToDisplay").value =
-//       "Please enter valid words for checking anagram.";
-//   } else if (
-//     first.split("").sort().join("") === second.split("").sort().join("")
-//   ) {
-//     document.getElementById("addToDisplay").value =
-//       first + " and " + second + " are Anagram words";
-//   } else {
-//     document.getElementById("addToDisplay").value =
-//       "Try again for Anagram words";
-//   }
+  if (first === "" || second === "") {
+    document.getElementById("addToDisplay").value =
+      "Please enter valid words for checking anagram.";
+  } else if (
+    first.split("").sort().join("") === second.split("").sort().join("")
+  ) {
+    document.getElementById("addToDisplay").value =
+      first + " and " + second + " are Anagram words";
+  } else {
+    document.getElementById("addToDisplay").value =
+      "Try again for Anagram words";
+  }
 
-//   document.getElementById("first").value = "";
-//   document.getElementById("second").value = "";
-// }
+  document.getElementById("first").value = "";
+  document.getElementById("second").value = "";
+}
