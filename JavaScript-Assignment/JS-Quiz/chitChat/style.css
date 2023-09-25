@@ -30,3 +30,17 @@
   padding: 20px;
   width: 60%;
 }
+
+#userInput{
+    width: 50%;
+    margin: 10px auto;
+    background-color: antiquewhite;
+}
+#posting{
+    width: 79%;
+    height: 40px;
+}
+#btn{
+    width: 19%;
+    height: 40px;
+}
