@@ -19,7 +19,8 @@
 .color {
   width: 40%;
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
 }
 .signup-box {
   margin-top: 50px;
@@ -39,7 +40,7 @@
 
 .signup-box input {
   height: 40px;
-  font-size: 1.3em;
+  font-size: 1.1em;
   padding: 10px;
   border-radius: 15px;
   border: 1px solid gray;
@@ -65,16 +66,22 @@
 
 .container {
   width: 100%;
+  min-height: 100vh;
   padding-top: 50px;
-  /* display: none; */
+  background-image: url(img/mainBG.png);
+  background-position: center;
+  background-size: cover;
+  display: none;
 }
 .box {
   width: 60%;
   margin: 0 auto;
   text-align: center;
-  background-color: aqua;
+  background-color: rgba(0, 0, 0, 0.5);
   height: auto;
   padding: 50px;
+  border-radius: 25px;
+
 }
 #img {
   width: 100px;
@@ -83,17 +90,24 @@
   background-color: #000;
   overflow: hidden;
 }
+#displayName{
+  color: #fff;
+}
 #output {
   margin-top: 25px;
 }
 #output > p {
-  border: 1px solid #000;
   padding: 20px;
   margin: 5px auto;
   width: 40%;
-  border-radius: 25px;
+  height: auto;
   font-size: 1.1em;
   word-wrap: break-word;
+  background-image: url(img/commentBox.png);
+  background-size: 100% 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #000;
 }
 
 #userInput {
