@@ -22,6 +22,14 @@
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 25px;
 }
+.color h1 {
+  color: #fff;
+  text-shadow: 2px 2px 0px rgba(0, 202, 183, 1),
+    2px -2px 0px rgba(0, 202, 183, 1), -2px 2px 0px rgba(0, 202, 183, 1),
+    -2px -2px 0px rgba(0, 202, 183, 1), 2px 0px 0px rgba(0, 202, 183, 1),
+    0px 2px 0px rgba(0, 202, 183, 1), -2px 0px 0px rgba(0, 202, 183, 1),
+    0px -2px 0px rgba(0, 202, 183, 1);
+}
 .signup-box {
   margin-top: 50px;
   padding: 50px;
@@ -52,10 +60,14 @@
   font-size: 1.2em;
   font-weight: 700;
   padding: 10px;
-  background-color: #ebb600;
+  background-color: #00cab7;
   outline: none;
   border: none;
   cursor: pointer;
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 #userimage {
@@ -81,7 +93,6 @@
   height: auto;
   padding: 50px;
   border-radius: 25px;
-
 }
 #img {
   width: 100px;
@@ -90,7 +101,7 @@
   background-color: #000;
   overflow: hidden;
 }
-#displayName{
+#displayName {
   color: #fff;
 }
 #output {
