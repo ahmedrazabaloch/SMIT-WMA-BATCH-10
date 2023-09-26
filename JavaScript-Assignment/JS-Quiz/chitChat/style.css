@@ -1,9 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
+
+/* >>>>>> Sign Up Page <<<<<< */
+
+.signup-container {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(img/background.png);
+  background-size: cover;
+  position: fixed;
+}
+.color {
+  width: 40%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.signup-box {
+  margin-top: 50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.image-container {
+  margin: 0 auto;
+}
+
+#images {
+  width: 150px;
+  height: 150px;
+}
+
+.signup-box input {
+  height: 40px;
+  font-size: 1.3em;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.signup-box button {
+  width: 40%;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 10px;
+  background-color: #ebb600;
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+#userimage {
+  border: none;
+  color: #fff;
+}
+/* >>>>>> Main Page <<<<<< */
+
 .container {
   width: 100%;
   padding-top: 50px;
@@ -31,16 +92,16 @@
   width: 60%;
 }
 
-#userInput{
-    width: 50%;
-    margin: 10px auto;
-    background-color: antiquewhite;
+#userInput {
+  width: 50%;
+  margin: 10px auto;
+  background-color: antiquewhite;
 }
-#posting{
-    width: 79%;
-    height: 40px;
+#posting {
+  width: 79%;
+  height: 40px;
 }
-#btn{
-    width: 19%;
-    height: 40px;
+#btn {
+  width: 19%;
+  height: 40px;
 }
