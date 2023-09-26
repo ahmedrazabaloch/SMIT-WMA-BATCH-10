@@ -68,6 +68,7 @@ a {
 .container {
   width: 100%;
   padding-top: 50px;
+  display: none;
 }
 .box {
   width: 60%;

@@ -1,3 +1,12 @@
+function formSubmission() {
+  var userName = document.getElementById("userName");
+  var signup = document.getElementById("signup-container");
+  var container = document.getElementById("container");
+  signup.style.display = "none";
+  container.style.display = "block";
+  console.log(userName.value);
+}
+
 function submit() {
   var para = document.getElementById("para");
   var posting = document.getElementById("posting");

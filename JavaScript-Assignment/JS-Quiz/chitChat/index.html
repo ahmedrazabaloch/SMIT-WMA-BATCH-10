@@ -7,7 +7,10 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="signup-container">
+
+    <!-- signup page content -->
+
+    <div class="signup-container" id="signup-container">
       <div class="color">
         <div class="signup-box">
           <div class="image-container">
@@ -16,9 +19,25 @@
           <input type="text" id="userName" placeholder="Ahmedraza" />
           <input type="email" id="email" placeholder="Example@gmail.com" />
           <input type="password" placeholder="00000000" />
-          <input type="file" accept="image/jpg image/png image/jpeg" id="userimage"/>
-          <button onclick=""><a href="">Submit</a></button>
+          <button onclick="formSubmission()">Submit</button>
         </div>
+      </div>
+    </div>
+
+    <!-- Main page container -->
+
+    <div class="container" id="container">
+      <div class="box">
+        <div>
+          <img id="img" src="img/icon-256x256.png" />
+          <h3>Ahmedraza</h3>
+        </div>
+        <!-- <input type="text" id="para" /> -->
+        <p id="para"></p>
+      </div>
+      <div id="userInput">
+        <input type="text" id="posting" />
+        <button onclick="submit()" id="btn">Submit</button>
       </div>
     </div>
 
