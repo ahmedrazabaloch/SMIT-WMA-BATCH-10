@@ -74,6 +74,7 @@
   border: none;
   color: #fff;
 }
+
 /* >>>>>> Main Page <<<<<< */
 
 .container {
@@ -114,11 +115,11 @@
   height: auto;
   font-size: 1.1em;
   word-wrap: break-word;
-  background-image: url(img/commentBox.png);
-  background-size: 100% 100px;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #000;
+  color: #ffffff;
+  border: 3px double #ff9719;
+  border-radius: 0px 100px 0px 100px;
+  background-color: rgba(255, 151, 25, 0.3);
+  font-weight: 600;
 }
 
 #userInput {
