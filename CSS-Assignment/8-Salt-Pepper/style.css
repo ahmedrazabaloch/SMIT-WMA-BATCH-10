@@ -52,6 +52,11 @@
   margin: 0;
   padding: 0;
 }
+#mainContainer {
+  width: 1360px;
+  overflow: hidden;
+  margin: 0 auto;
+}
 
 .navBar {
   background-color: black;
@@ -62,16 +67,11 @@
 .nav-Container {
   padding: 10px 70px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .logo img {
   height: 80px;
-}
-
-.list-item {
-  position: absolute;
-  top: 35%;
-  left: 40%;
-  width: 40%;
 }
 
 .list-item li {
@@ -86,13 +86,6 @@
 a {
   text-decoration: none;
   color: white;
-}
-.nav-btn {
-  position: absolute;
-  top: 20%;
-  left: 75%;
-  width: 270px;
-  height: 100%;
 }
 
 .nav-btn button {
@@ -111,7 +104,6 @@ a {
 }
 .ad-img > a > img {
   width: 100%;
-  height: 100vh;
 }
 .salt-para {
   font-family: "futurak";
@@ -220,12 +212,10 @@ p {
 
 .box-para > .btn {
   position: absolute;
-  /* left: 7%; */
   margin: 50px 0px;
 }
 .box-para2 > .btn {
   position: absolute;
-  /* left: 50%; */
   margin: 50px 0px;
 }
 .section-two {
@@ -377,9 +367,7 @@ h2 {
 .last-section div {
   text-align: center;
   display: flex;
-  /* flex-wrap: wrap; */
   margin: 10px auto;
-  /* justify-content: space-between; */
   width: 95%;
   padding: 0 10px;
 }
@@ -388,6 +376,7 @@ h2 {
   width: 100%;
   height: 250px;
   background-color: black;
+  object-fit: contain;
 }
 .footer {
   background-image: url(Images/simple-S.webp);
@@ -454,9 +443,9 @@ h2 {
 }
 .byMe {
   text-align: center;
-  background-color: #b7b7b2;
+  background-color: #0f0f0f;
   height: 50px;
   padding-top: 25px;
   font-family: "apercu";
-  color: #0f0f0f;
+  color: #fff;
 }
