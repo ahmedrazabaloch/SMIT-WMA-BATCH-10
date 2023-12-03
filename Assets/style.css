@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+#project > img {
+  width: 100%;
+}
 
 #myBtn {
   display: none;
@@ -91,7 +94,6 @@ a {
   text-decoration: none;
   color: #f4faeb;
 }
-
 
 /* <<<<<<<<< Header-END >>>>>>>>>> */
 .main-container {
